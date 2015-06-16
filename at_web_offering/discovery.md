@@ -38,28 +38,35 @@ AT provides assistance with accessibility testing but it is the owner’s respon
 
 **Branding**
 
+**Accessibility**
+
+AT provides assistance with accessibility testing but it is the owner’s responsibility to understand requirements and verify the site content meets DPRC requirements.
+
+**Branding**
+
 For all public facing sites, you must understand and follow any guidelines from University Communications.
 
 ###How to Use Drupal
 Tutorials covering the basics of Drupal.  Accessibility will be noted as a goal for content development.
 
-**Edit a page**
+* Edit a page
+    1. Log in to your Drupal site
+    2. Select "Content" > Select "Edit" in the row of the page you want to edit.
+    * OR 
+    1. Select Home button in the upper left corner > Navigate to your page > Select "Edit" just under the page title.
+    2. Fill in the Edit page fields
+        * Title - Title displayed at the top of the page
+        * Body - Main content section.  Use the available menu bar to add formatting and links to your text.
+    3. Select "Save"
+* [Adding Links](http://drupal.sfsu.edu/links-and-anchors)
+* [Adding Images](http://drupal.sfsu.edu/images-instructions)
+* [Adding Documents](http://drupal.sfsu.edu/attach-document)
+* [Adding Tables](http://drupal.sfsu.edu/tables)
+* [Adding a Page to the Menu](http://drupal.sfsu.edu/menus)
+* [Web Style Guide](https://wcmdemo7.sfsu.edu/academic/web)
+* Content Revisions and Reverting
+* Log in Exercises
 
-**Adding LinksURL**
-
-** Adding ImagesURL**
-
-** Adding DocumentsURL**
-
-** Adding TablesURL**
-
-** Adding a Page to the MenuURL**
-
-** Web Style GuideURL**
-
-** Log in Exercises**
-
-    
 **To log in to the AR Drupal site:**
 
 1. Navigate to https://wcmdemo7.sfsu.edu/<sitename>/login
@@ -73,3 +80,5 @@ Tutorials covering the basics of Drupal.  Accessibility will be noted as a goal 
 2. Enter your SF State ID and password
 3. "Add a new discussion topic" to let me know that you have logged in.
 4. Make a note if you would like to be added as a Collaborator to the Academic Scheduling Room Request Form.
+
+
