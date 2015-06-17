@@ -5,7 +5,7 @@
 
 **AT Web Support**
 * Send website goals questionnaire.
-* Determine website design path (Simple migration or site redesign)
+* Determine website design path (Simple migration or site redesign).
 * Train Content Authors to use Drupal and to create content that is well structured and accessible.
 
 ##Website Goals Questionaire
@@ -18,33 +18,11 @@
 7. What would make a successful website for you?
     
 ##Drupal Training
+
 **Goal: Provide standardized training program for all Drupal content authors**
-* Training would be required before you were given access to edit your site
-* Training would have accessibility built into it's core
 
-###Client Website Responsibilities
-**Copyright, content ownership**
-* All content belongs to the site owner not AT/ITS
-* It is your responsibility to know what can be posted on your website
-* It is your responsibility to know what can be posted on your website, review the Web Pages Policy
-
-**Privacy/Security**
-* No sensitive data should be stored in Drupal!
-* Do NOT share passwords, manage access careful
-
-**Accessibility**
-
-AT provides assistance with accessibility testing but it is the owner’s responsibility to understand requirements and verify the site content meets DPRC requirements.
-
-**Branding**
-
-**Accessibility**
-
-AT provides assistance with accessibility testing but it is the owner’s responsibility to understand requirements and verify the site content meets DPRC requirements.
-
-**Branding**
-
-For all public facing sites, you must understand and follow any guidelines from University Communications.
+* Training would be required before you were given access to edit the site.
+* Training would have accessibility and web best practices built into it's core.
 
 ###How to Use Drupal
 Tutorials covering the basics of Drupal.  Accessibility will be noted as a goal for content development.
@@ -81,4 +59,20 @@ Tutorials covering the basics of Drupal.  Accessibility will be noted as a goal 
 3. "Add a new discussion topic" to let me know that you have logged in.
 4. Make a note if you would like to be added as a Collaborator to the Academic Scheduling Room Request Form.
 
+###Client Website Responsibilities
+**Copyright, content ownership**
+* All content belongs to the site owner not AT/ITS
+* It is your responsibility to know what can be posted on your website
+* It is your responsibility to know what can be posted on your website, review the Web Pages Policy
 
+**Privacy/Security**
+* No sensitive data should be stored in Drupal!
+* Do NOT share passwords, manage access careful
+
+**Accessibility**
+
+AT provides assistance with accessibility testing but it is the owner’s responsibility to understand requirements and verify the site content meets DPRC requirements.
+
+**Branding**
+
+For all public facing sites, you must understand and follow any guidelines from University Communications.

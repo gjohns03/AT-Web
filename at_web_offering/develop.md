@@ -67,9 +67,9 @@ Other Users can be assigned a new role within the Drupal Site to change the user
 
 ###Building Blocks
 
-Build blocks with Views to allow the content to be editable by the clients.
+Build Basic Block with Views to allow the block content to be editable by users.
 
-*Basic Block*
+**Basic Block**
 
 1. Structure > Views > Add new view
     2. "View name" = Editable Content Block
@@ -93,7 +93,9 @@ Build blocks with Views to allow the content to be editable by the clients.
 2. Select "Clone Block" 
 3. Edit the new block view to grab another node.
 
-*Tiles Block*
+**Tiles Block**
+
+Tiles Block are editable content tiles that use the bootstrap column classes to create rows of 1, 2, or 3 and then stack on smaller screen widths.
 
 First Create a Tile Content type
 

@@ -1,10 +1,13 @@
 #Web Support Maintenance
 
-**With Client**
+##With Client
 * Determine a Content Management Editorial Calendar
 * semesters, breaks, holidays, etc.
 
-**AT Web Support**
-* Send out semi-annual analytics report a reminder to update maintain content and touch base.
-* Send out semi-annual newsletter highlighting AT offerings, successes, web tips.
-* Run SSB Bart automated assessment tool.  Fix errors or use as a training exercise for clients. 
+##AT Web Support
+
+Touch base with all supported uints on a semi-annual basis.  See if there are any web support needs and reinforce web standards.
+
+* Send out Google analytics report with a reminder to maintain well structured content.
+* Run SSB Bart automated assessment tool.  Fix errors or use as a training exercise for users.
+* Send out newsletter highlighting AT offerings, successes, and web tips.
