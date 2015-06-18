@@ -59,6 +59,32 @@ Tutorials covering the basics of Drupal.  Accessibility will be noted as a goal 
 3. "Add a new discussion topic" to let me know that you have logged in.
 4. Make a note if you would like to be added as a Collaborator to the Academic Scheduling Room Request Form.
 
+####Adding Video
+
+Not currently working with Editors because it strips iframe
+
+1. Edit the page content
+2. Go to the "Source"
+3. In your code enter "<div class="videoWrapper">paste YouTube Embed code and add a title ie <iframe width="560" height="315" src="https://www.youtube.com/embed/7IpNWHaubnE" frameborder="0" allowfullscreen title="WAC Overview"></iframe></div>"
+4. Save your content
+
+Video Wrapper CSS
+```
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+```
+
 ###Client Website Responsibilities
 **Copyright, content ownership**
 * All content belongs to the site owner not AT/ITS
