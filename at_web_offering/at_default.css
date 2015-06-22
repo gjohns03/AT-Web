@@ -113,12 +113,6 @@ a.btn-primary
     border: 1px solid #fff;
 }
 
-.tile .glyphicon {
-    display: block;
-    float: left;
-    font-size: 4em;
-}
-
 .well {
     border-radius: 5px;
     margin: 10px 0px;
