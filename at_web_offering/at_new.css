@@ -143,6 +143,14 @@ hr {
     border: 1px solid #fff;
 }
 
+
+.tile .glyphicon {
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    color: #ffcc33;
+}
+
 .well {
     border-radius: 5px;
     margin: 10px 0px;
