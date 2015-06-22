@@ -9,8 +9,7 @@ body {
 #main section[role="main"], .region-navigation {
     border-left: 0px;
     border-right: 0px;
-    padding:  0px 0px 0px 0px;
-    background-color: #fff;
+    padding:  0px;
 }
 
 /* typography */

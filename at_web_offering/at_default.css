@@ -1,6 +1,12 @@
 /* AT Default Styles */
 /* Fixes broken styles for Styles.css and Bootstrap */
 /* Built in CKEditor Styles*/
+#main section[role="main"], .region-navigation {
+    border-left: 0px;
+    border-right: 0px;
+    padding:  0px;
+}
+
 .attention {
     border-radius: 5px;
     margin: 10px 0px;
