@@ -19,7 +19,7 @@ Input and update content
 2. Configuration > CSS injector > Add
     3. Friendly name = AT Default Styles
     4. Description = Fixes broken styles for Styles.css and Bootstrap
-    5. CSS code = @import url(//cdn.rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);
+    5. CSS code = @import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);
     4. Save
 
 ###Configure CKEditor Editor profile
@@ -101,6 +101,7 @@ First Create a Tile Content type
 
 1. Structure > Content types > Add content type
 2. Name = "Tile"
+2. Publishing options = "Published", "Create new revision"
 3. Comment settings > "Closed"
 4. Select "Save content type"
 5. Select "manage fields" for the Tile content type
@@ -109,7 +110,8 @@ First Create a Tile Content type
     8. Field Type = Select "Image"
     9. Widget = Select "Image"
     10. Select "Save"
-11. Position "Image" field above the "Body" 
+11. Position "Image" field above the "Body"
+12. Update permissions, People > Permissions
 
 Second Create a Tile View
 
