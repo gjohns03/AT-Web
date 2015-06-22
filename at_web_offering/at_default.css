@@ -115,9 +115,8 @@ a.btn-primary
 
 .tile .glyphicon {
     display: block;
-    text-align: center;
+    float: left;
     font-size: 4em;
-    color: #ffcc33;
 }
 
 .well {
