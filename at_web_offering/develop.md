@@ -17,9 +17,9 @@ Input and update content
 ###Import Default AT CSS
 1. Enable "CSS Injector" module
 2. Configuration > CSS injector > Add
-    3. Friendly name = AT Default Styles
+    3. Friendly name = AT Default Styles or AT New Styles
     4. Description = Fixes broken styles for Styles.css and Bootstrap
-    5. CSS code = @import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);
+    5. CSS code = @import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css); or @import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new.css);
     4. Save
 
 ###Configure CKEditor Editor profile
