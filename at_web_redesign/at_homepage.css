@@ -78,24 +78,34 @@ btn-request:hover {
 @media(max-width:480px){
 .text-over {
     background-color: rgba(0, 0, 0, 0.65);
-    position: relative; 
+    position: relative;
+    width: 100%;
+    font-size: 1.8em;
+    padding: 10px;
     margin: 0px;
     padding: 15px;
     text-align: center
 }
+    .tile-img {
+    margin: 0px -15px 0px -15px;
+    }
 }
 
 @media(min-width:481px){
     .text-over-4 {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
+    font-size: 1.8em;
     position: absolute; 
     z-index: 1; 
     bottom: 0; 
     left: 0;
-    padding: 0px 15px;
+    padding: 10px;
     text-align: center;
 }
+    .tile-img {
+    margin: 0px -15px 0px -15px;
+    }
 }
 
 @media(max-width:480px){
