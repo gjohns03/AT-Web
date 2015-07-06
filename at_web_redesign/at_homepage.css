@@ -42,7 +42,9 @@
   background-color: none;
   border-color: #fff;
   margin-right: 15px;
-    font-weight: bold;
+  width: 40%; 
+  font-weight: bold;
+
 }
 
 btn-read:hover {
@@ -52,8 +54,10 @@ btn-read:hover {
 .btn-request {
   border-color: #fc3;
   background-color: #ffe699;
+  width: 40%;    
   margin-left: 15px;
-    font-weight: bold;
+  font-weight: bold;
+
 }
 
 btn-request:hover {
@@ -65,7 +69,13 @@ btn-request:hover {
 }
 
 .blog-tile:hover {
-    border: 2px solid #ffe699;
+    -webkit-box-shadow:inset 0px 0px 0px 2px #ffe699;
+    -moz-box-shadow:inset 0px 0px 0px 2px #ffe699;
+    box-shadow:inset 0px 0px 0px 2px #ffe699;
+}
+
+#main .blog-tile a {
+    color: #fff;
 }
 
 .tile-list {
@@ -81,10 +91,6 @@ btn-request:hover {
 
 .region-content .tile-list li {
     margin: 0px;
-}
-
-#main .tile-list a {
-    color: #fff;
 }
 
 @media(min-width:769px){
@@ -114,6 +120,10 @@ btn-request:hover {
     margin: 0px;
     text-align: center
 }
+}
+
+.view-taxonomy-term .text-over {
+    width: 65%;
 }
 
 @media(min-width:769px){
