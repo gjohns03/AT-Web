@@ -60,7 +60,7 @@ btn-request:hover {
   background-color: #ffcc33;
   border-color: #ffcc33;}
 
-.list-class {
+.tile-list {
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -71,11 +71,11 @@ btn-request:hover {
   -webkit-padding-start: 0px;
 }
 
-.region-content .list-class li {
+.region-content .tile-list li {
     margin: 0px;
 }
 
-#main .list-class a {
+#main .tile-list a {
     color: #fff;
 }
 
@@ -107,7 +107,7 @@ btn-request:hover {
 }
 
 @media(min-width:481px){
-    .text-over-4 {
+    .text-over-tile {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
     font-size: 1.8em;
@@ -118,7 +118,7 @@ btn-request:hover {
     padding: 10px;
     text-align: center;
 }
-    .list-class img  {
+    .tile-list img  {
     width: 100%;
     margin-left: -15px;
     margin-right: -15px;
@@ -126,7 +126,7 @@ btn-request:hover {
 }
 
 @media(max-width:480px){
-.text-over-4 {
+.text-over-tile {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
     position: relative;
@@ -135,7 +135,7 @@ btn-request:hover {
     padding: 10px;
     text-align: center
 }
-    .list-class img {
+    .tile-list img {
     margin: 0px -15px 0px -15px;
     }
 }
