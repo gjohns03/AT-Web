@@ -33,7 +33,7 @@
         margin-top: 0px;
     }
 
-.text-over p, #main .text-over h2, #main .text-over .btn-read a, #main .region-sidebar-second a {
+.text-over p, #main .text-over h2, #main .text-over .btn-read a, #main .region-sidebar-second .side-posts a {
     color: #fff;
     margin-bottom: 20px;
     font-weight: bold;
@@ -162,6 +162,9 @@ btn-request:hover {
     .region-sidebar-second .text-over-tile {
     font-size: 1em;
     }
+    #main .region-sidebar-second .side-posts img{
+    margin-bottom: 0px;
+    }
 }
 
 @media(max-width:768px){
@@ -178,8 +181,8 @@ btn-request:hover {
     padding-top: 10px;
     margin: 0px;
     }
-    .region-sidebar-second .text-over-tile {
-    font-size: 1em;
+    .region-sidebar-second .side-posts img {
+    margin-bottom: 0px;
     }
 }
 
