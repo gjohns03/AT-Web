@@ -140,7 +140,7 @@ btn-request:hover {
 }
 
 @media(min-width:769px){
-    .text-over-tile {
+   #main section[role="main"] .text-over-tile {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
     font-size: 1.8em;
@@ -157,7 +157,7 @@ btn-request:hover {
 }
 
 @media(max-width:768px){
-.text-over-tile {
+#main section[role="main"] .text-over-tile {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
     position: relative;
@@ -167,6 +167,7 @@ btn-request:hover {
     text-align: center
 }
     .tile-list img {
+    padding-top: 10px;
     margin: 0px;
     }
 }
