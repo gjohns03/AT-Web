@@ -181,7 +181,7 @@ btn-request:hover {
     padding-top: 10px;
     margin: 0px;
     }
-    .region-sidebar-second .side-posts img {
+    #main .region-sidebar-second .side-posts img {
     margin-bottom: 0px;
     }
 }
@@ -195,91 +195,6 @@ btn-request:hover {
 /* End Pagination */
 
 /* Side Bar Region*/
-/*region-sidebar-second*/
 #block-views-testimonial-displays-block h2 {
-    
-}
-
-#main .tile-xl h2{
-    color: #fff;
-}
-
-#main .tile-xl a{
-    color: #fc3;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 8px;
-    border: 2px solid #fc3;
-}
-
-.tile-sm .col-md-4{
-    padding: 10px 2.5px;
-}
-
-#main .tile-sm .col-md-4 a{
-    margin-top: 5px;
-    padding: 10px;
-    border-bottom: 2px;
-    border-radius: 8px;
-    border: 2px solid #303;
-}
-
-.tile-sm .col-md-4 img{
-    border-bottom: 4px solid #fff;
-}
-
-.tile-sm .col-md-4:hover img{
-    border-bottom: 4px solid #ffe699;
-}
-
-.tile-sm h2, .tile-sm p {
-    text-align: center;
-    padding: 10px 10px 0px 10px;
-    margin: 0px;
-}
-
-/* Follow Social Media*/
-.social-follow {
-    position: absolute;
-    top: 59px;
-    left: -15px;
-    z-index: 1;
-}
-.follow {
-    display: inline-block;
-    padding: 10px;
-    text-align:center;
-}
-
-.follow.fb {
-  background: #3B5998;
-}
-
-.follow.twitter {
-  background: #00ACED;
-}
-
-.follow.gplus {
-  background: #DD4B39;
-}
-
-.follow.insta {
-  background: #3F729B;
-}
-
-.blog-stat {
-    font-size: 2em;
-    margin: 20px;
-}
-
-.blog-stat .glyphicon {
-    float: left;
-    padding-right: 10px;
-    font-size: 1.5em;
-}
-
-action-btn {
-    display: block;
-    margin: 33% 0%;
     
 }
