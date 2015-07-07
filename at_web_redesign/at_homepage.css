@@ -36,6 +36,11 @@
 .text-over p, #main .text-over h2, #main .text-over .btn-read a {
     color: #fff;
     margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.tagline {
+    color: #fc3;
 }
 
 .btn-read {
@@ -172,6 +177,13 @@ btn-request:hover {
     }
 }
 
+
+/* Pagination */
+.text-center {
+    clear: both;
+}
+
+/* End Pagination */
 #main .tile-xl h2{
     color: #fff;
 }
