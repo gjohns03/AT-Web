@@ -192,7 +192,14 @@ btn-request:hover {
     clear: both;
 }
 
-/* End Pagination */
+/* Social */
+.social a {
+    padding-right: 10px;
+}
+
+i.icon-3x {
+    font-size: 3em;
+}
 
 /* Side Bar Region*/
 #block-views-testimonial-displays-block h2 {
