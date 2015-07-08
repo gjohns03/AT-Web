@@ -69,7 +69,7 @@ btn-request:hover {
   background-color: #ffcc33;
   border-color: #ffcc33;}
 
-.blog-tile, .blog-tile-side {
+.blog-tile, .blog-tile-side, .blog-banner {
     padding: 0px;
     overflow: hidden;
     position: relative;
