@@ -20,7 +20,7 @@
 }
 
 #header .leaf a{
-    color: #565656;
+    color: #303;
 }
 
 .page-header {
@@ -72,6 +72,7 @@ btn-request:hover {
 .blog-tile, .blog-tile-side {
     padding: 0px;
     overflow: hidden;
+    position: relative;
 }
 
 .blog-tile img, .blog-tile-side img {
