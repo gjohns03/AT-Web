@@ -7,8 +7,7 @@
 }
 
 .block-menu {
-    border-bottom: 5px solid #ffe699;
-    border-radius: 0px 0px 5px 5px;
+    background-color: #ffe699;
 }
 
 .nav {
@@ -21,7 +20,7 @@
 }
 
 #header .leaf a{
-    color: #464666;
+    color: #565656;
 }
 
 .page-header {
@@ -174,9 +173,6 @@ btn-request:hover {
     padding: 10px;
     text-align: center;
 }
-    .tile-list .text-over-tile {
-    border-left: 1px solid #ffe699;
-    }
 }
 
 @media(min-width: 768px){
@@ -187,7 +183,7 @@ btn-request:hover {
 
 @media(max-width: 767px){
     .blog-tile {
-        border-top: 10px solid #ffe699;
+        border-top: 10px solid #fff;
     }
 }
 
