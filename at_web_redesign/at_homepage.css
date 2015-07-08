@@ -188,7 +188,6 @@ btn-request:hover {
     }
 }
 
-
 #main .region-sidebar-second .side-posts img{
     margin-bottom: 0px;
 }
@@ -196,8 +195,8 @@ btn-request:hover {
 
 /* Blog Posts */
 .author {
-  font-size: 1.2em;
-  margin: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
 }
 
 /* Pagination */
@@ -215,8 +214,7 @@ i.icon-3x {
 }
 
 .social-post {
-    position: absolute;
-    right: 0px;
+    margin-top: 10px;
 }
 
 /* Side Bar Region*/
