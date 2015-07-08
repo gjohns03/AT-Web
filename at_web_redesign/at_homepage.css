@@ -69,12 +69,12 @@ btn-request:hover {
   background-color: #ffcc33;
   border-color: #ffcc33;}
 
-.blog-tile {
+.blog-tile, .blog-tile-side {
     padding: 0px;
     overflow: hidden;
 }
 
-.blog-tile img {
+.blog-tile img, .blog-tile-side img {
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     -ms-transition: all .2s ease;
@@ -84,7 +84,7 @@ btn-request:hover {
     vertical-align: middle;
 }
 
-.blog-tile img:hover {
+.blog-tile img:hover, .blog-tile-side img:hover {
     -webkit-transform:scale(1.1); /* Safari and Chrome */
     -moz-transform:scale(1.1); /* Firefox */
     -ms-transform:scale(1.1); /* IE 9 */
@@ -142,6 +142,9 @@ btn-request:hover {
     padding: 10px;
     margin: 0px;
 }
+.view-taxonomy-term .text-over {
+    width: 100%;
+}
 }
 
 /* Tiles */
@@ -178,9 +181,6 @@ btn-request:hover {
 @media(min-width: 768px){
     .region-sidebar-second .text-over-tile {
     font-size: 1em;
-    }
-    .blog-tile {
-        border-top: 10px solid #ffe699;
     }
 }
 
