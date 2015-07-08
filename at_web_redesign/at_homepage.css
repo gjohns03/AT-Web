@@ -185,7 +185,10 @@ btn-request:hover {
     margin-bottom: 0px;
     }
 }
-
+/* Blog Posts */
+.author {
+  font-size: 1.2em;
+  margin: 10px;
 
 /* Pagination */
 .text-center {
@@ -199,6 +202,11 @@ btn-request:hover {
 
 i.icon-3x {
     font-size: 3em;
+}
+
+.social-post {
+    position: absolute;
+    right: 0px;
 }
 
 /* Side Bar Region*/
