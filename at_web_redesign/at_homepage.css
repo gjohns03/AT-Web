@@ -135,7 +135,7 @@ btn-request:hover {
 .text-over {
     background-color: rgba(0, 0, 0, 0.65);
     border-radius: 0px;
-    max-width: 100%;
+    width: 100%;
     top: initial;
     bottom: 0;
     left: 0;
@@ -178,11 +178,18 @@ btn-request:hover {
 @media(min-width: 768px){
     .region-sidebar-second .text-over-tile {
     font-size: 1em;
-}
+    }
     .blog-tile {
         border-top: 10px solid #ffe699;
     }
 }
+
+@media(max-width: 767px){
+    .blog-tile {
+        border-top: 10px solid #ffe699;
+    }
+}
+
 
 #main .region-sidebar-second .side-posts img{
     margin-bottom: 0px;
