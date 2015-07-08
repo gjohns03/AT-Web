@@ -1,4 +1,4 @@
-/* Navbar */
+/* Navbar Header */
 #main section[role="main"], .region-navigation {
     border-left: 0px;
     border-right: 0px;
@@ -7,7 +7,8 @@
 }
 
 .block-menu {
-    background-color: #ffe699;
+    border-bottom: 5px solid #ffe699;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .nav {
@@ -23,9 +24,9 @@
     color: #464666;
 }
 
-/* end navigation */
-
-
+.page-header {
+  padding-top: 9px;
+}
 
 /*AT HomePage styles*/
 
