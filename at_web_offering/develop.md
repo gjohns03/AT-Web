@@ -27,7 +27,7 @@ Input and update content
 1. Configuration > Content authoring > CKEditor > edit SFSUEDitor
 2. Modify the Editor Appearance
     3. Add buttons: Increase Indent, Decrease Indent, Unlink, Source, and Insert Horizontal Line.
-    4. Remove buttons: Drupal Break, Add YouTube Video, Add Vimeo Video, Copy, Paste.
+    4. Remove buttons: Drupal Break, Add Vimeo Video, Copy, Paste.
     5. Discuss removing buttons: Anchor, Insert Special Character
     6. ![Image of CKEditor menu](https://wcmdemo7.sfsu.edu/academic/sites/wcmdemo7.sfsu.edu.academic/files/CKEditor%20Menu.jpg)
 7. Modify "CSS" 
@@ -41,17 +41,19 @@ Input and update content
 
 1. Configuration > Content authoring > Text formats > CKEditor HTML (Editor)
 2. In Filter settings section > WYSIWYG Filter > HTML elements and attributes
-    3. Replace elements with: @[id|class|title],a[class|href|name|target|title],p,div,h1,h2,h3,h4,h5,h6,img[src|alt|height],hr,br,ul,ol,li,table[class|sortable|summary],tr,th[abbr|scope|sorted|colspan|headers|rowspan],td[colspan|headers|rowspan],em,b,u,i,strong,caption,thead,tbody
+    3. Replace elements with: @[id|class|title|aria-hidden],a[class|href|name|target|title],p,div,h1,h2,h3,h4,h5,h6,img[src|alt|height],hr,br,ul,ol,li,span,table[class|sortable|summary],tr,th[abbr|scope|sorted|colspan|headers|rowspan],td[colspan|headers|rowspan],em,b,u,i,strong,caption,thead,tbody,iframe[*]
 4. In Filter settings section > WYSIWYG Filter > Rules for Class Names
-    5. Add classes: announcement,attention,btn,btn-basic,btn-info,btn-primary,well,
+    5. Add classes: announcement,attention,btn,btn-basic,btn-info,btn-primary,fa*,glyphicon*,well,
     
-###Create Login Redirect
+###Create Login Page
+
+A method for users to log in and be redirected to the homepage.  This will bypass any administrative views for the user.
 
 1. Content > Add content > Basic page
-    2. Create a page with URL "login" and save the page.
-3. Enable "Redirect" module
-4. Configuration > Search and metadata > URL redirects> Add redirect
-5. From "login" to "saml_login"
+    2. Create a page called "Login to your site" with URL "login" and save the page.
+3. Go to source code and paste in:<div class="attention"><ol><li>Select the &quot;Login&quot; button below.</li><li>You will be directed to the SF State Global login page.</li><li>Enter your SF State ID and Password.</li><li>You will be redirected to your site homepage following successful login.</li></ol><p></div><a class="btn btn-basic" href="https://wcmdemo7.sfsu.edu/[sitename]/saml_login?ReturnTo=https://wcmdemo7.sfsu.edu/[sitename]">Login</a></p>
+4. Replace [sitename] with the site name of your site and "wcmdemo7" with "sites7" when moved to production.
+
 
 ###Testing Client Experience
 

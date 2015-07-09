@@ -49,8 +49,7 @@ Tutorials covering the basics of Drupal.  Accessibility will be noted as a goal 
 
 1. Navigate to https://wcmdemo7.sfsu.edu/<sitename>/login
 2. Enter your SF State ID and password
-3. You will be reidrected to your demo site. see the "Access denied - You are not authorized to access this page".
-4. "Add a new discussion topic" to let me know that you have logged in. I will then add you as an Editor of     the site.```
+3. You will be reidrected to your site homepage.
 
 **To log in to the SF State Qualtrics Survey Software:**
 
@@ -59,16 +58,16 @@ Tutorials covering the basics of Drupal.  Accessibility will be noted as a goal 
 3. "Add a new discussion topic" to let me know that you have logged in.
 4. Make a note if you would like to be added as a Collaborator to the Academic Scheduling Room Request Form.
 
-####Adding Video
+####Adding YouTube Video
 
 Not currently working with Editors because it strips iframe
 
 1. Edit the page content
-2. Go to the "Source"
-3. In your code enter "<div class="videoWrapper">paste YouTube Embed code and add a title ie <iframe width="560" height="315" src="https://www.youtube.com/embed/7IpNWHaubnE" frameborder="0" allowfullscreen title="WAC Overview"></iframe></div>"
+2. Select "Add YouTube Video" button.
+3. Paste the YouTube video id in the field and select "OK", (only letters and numbers following the "v=" in the url)
 4. Save your content
 
-Video Wrapper CSS
+Explore Video Wrapper CSS to make responsive
 ```
 .videoWrapper {
 	position: relative;
@@ -84,6 +83,25 @@ Video Wrapper CSS
 	height: 100%;
 }
 ```
+
+####Adding Icons to Content
+
+Bootstrap Glyphicons vs 3.2.0
+
+1. Navigate to http://bootstrapdocs.com/v3.2.0/docs/components/#glyphicons
+2. Copy glyphicon name text below the glyphicon (ex. glyphicon-asterisk)
+3. Select the "Source" button in your content editor
+4. Paste <span class="glyphicon <name>" aria-hidden="true">&nbsp;</span> in your code, replacing <name> with the text from step 2
+5. Select "Save"
+
+FontAwesome Icons vs 4.1.0
+
+1. Navigate to http://fontawesome.io/icons/
+2. Select the desired icon and copy the icon name after the icon (ex. fa-adjust)
+3. Select the "Source" button in your content editor
+4. Paste <i class="fa <name>" aria-hidden="true">&nbsp;</i> in your code, replacing <name> with the text from step 2
+5. Select "Save"
+
 
 ###Client Website Responsibilities
 **Copyright, content ownership**
