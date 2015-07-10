@@ -19,7 +19,8 @@ Input and update content
 2. Configuration > CSS injector > Add
     3. Friendly name = AT Default Styles or AT New Styles
     4. Description = Fixes broken styles for Styles.css and Bootstrap and Adds AT Styles
-    5. CSS code = ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);``` for new fonts add ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new.css);```
+    5. CSS code if using new fonts = ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new.css);```
+    5. For all sites, add CSS line = ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);``` for new fonts add 
     4. Save
 
 ###Configure CKEditor Editor profile
@@ -34,7 +35,7 @@ Input and update content
     8. Set "Editor CSS" to Define CSS
     9. Enter "CSS file path" to ```%tcss/style.css,%tbootstrap/css/bootstrap.min.css,https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css,http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css```- (font awesome is not working?).  For new fonts add ```https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new.css```
     10. Set "Predefined styles" to Define path to ckeditor.style.js
-    11. Enter "Predefined styles path" to [https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_ckeditor.styles.js]
+    11. Enter "Predefined styles path" to ```https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_ckeditor.styles.js```
         12. Default is: https://github.com/gjohns03/AT-Web/blob/master/at_web_offering/ckeditor.styles.js
 13. Save
 
