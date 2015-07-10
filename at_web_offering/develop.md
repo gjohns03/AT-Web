@@ -19,7 +19,7 @@ Input and update content
 2. Configuration > CSS injector > Add
     3. Friendly name = AT Default Styles or AT New Styles
     4. Description = Fixes broken styles for Styles.css and Bootstrap and Adds AT Styles
-    5. CSS code = '''@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);''' for new fonts add '''@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new.css);'''
+    5. CSS code = ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);``` for new fonts add ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new.css);```
     4. Save
 
 ###Configure CKEditor Editor profile
@@ -32,7 +32,7 @@ Input and update content
     6. ![Image of CKEditor menu](https://wcmdemo7.sfsu.edu/academic/sites/wcmdemo7.sfsu.edu.academic/files/CKEditor%20Menu.jpg)
 7. Modify "CSS" 
     8. Set "Editor CSS" to Define CSS
-    9. Enter "CSS file path" to '''%tcss/style.css,%tbootstrap/css/bootstrap.min.css,https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css,http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css''' - (font awesome is not working?).  For new fonts add '''https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new.css'''
+    9. Enter "CSS file path" to ```%tcss/style.css,%tbootstrap/css/bootstrap.min.css,https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css,http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css```- (font awesome is not working?).  For new fonts add ```https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new.css```
     10. Set "Predefined styles" to Define path to ckeditor.style.js
     11. Enter "Predefined styles path" to [https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_ckeditor.styles.js]
         12. Default is: https://github.com/gjohns03/AT-Web/blob/master/at_web_offering/ckeditor.styles.js
@@ -42,9 +42,9 @@ Input and update content
 
 1. Configuration > Content authoring > Text formats > CKEditor HTML (Editor)
 2. In Filter settings section > WYSIWYG Filter > HTML elements and attributes
-    3. Replace elements with '''@[id|class|title|aria-hidden],a[class|href|name|target|title],p,div,h1,h2,h3,h4,h5,h6,img[src|alt|height],hr,br,ul,ol,li,span,table[class|sortable|summary],tr,th[abbr|scope|sorted|colspan|headers|rowspan],td[colspan|headers|rowspan],em,b,u,i,strong,caption,thead,tbody,iframe[*]'''
+    3. Replace elements with ```@[id|class|title|aria-hidden],a[class|href|name|target|title],p,div,h1,h2,h3,h4,h5,h6,img[src|alt|height],hr,br,ul,ol,li,span,table[class|sortable|summary],tr,th[abbr|scope|sorted|colspan|headers|rowspan],td[colspan|headers|rowspan],em,b,u,i,strong,caption,thead,tbody,iframe[*]```
 4. In Filter settings section > WYSIWYG Filter > Rules for Class Names
-    5. Add classes '''announcement,attention,btn,btn-basic,btn-info,btn-primary,fa*,glyphicon*,well,'''
+    5. Add classes ```announcement,attention,btn,btn-basic,btn-info,btn-primary,fa*,glyphicon*,well,```
     
 ###Create Login Page
 
@@ -52,8 +52,8 @@ A method for users to log in and be redirected to the homepage.  This will bypas
 
 1. Content > Add content > Basic page
     2. Create a page called "Login to your site" with URL "login" and save the page.
-3. Go to source code and paste '''<div class="attention"><ol><li>Select the &quot;Login&quot; button below.</li><li>You will be directed to the SF State Global login page.</li><li>Enter your SF State ID and Password.</li><li>You will be redirected to your site homepage following successful login.</li></ol><p></div><a class="btn btn-basic" href="https://wcmdemo7.sfsu.edu/[sitename]/saml_login?ReturnTo=https://wcmdemo7.sfsu.edu/[sitename]">Login</a></p>'''
-4. Replace '''[sitename]''' with the site name of your site and "wcmdemo7" with "sites7" when moved to production.
+3. Go to source code and paste ```<div class="attention"><ol><li>Select the &quot;Login&quot; button below.</li><li>You will be directed to the SF State Global login page.</li><li>Enter your SF State ID and Password.</li><li>You will be redirected to your site homepage following successful login.</li></ol><p></div><a class="btn btn-basic" href="https://wcmdemo7.sfsu.edu/[sitename]/saml_login?ReturnTo=https://wcmdemo7.sfsu.edu/[sitename]">Login</a></p>```
+4. Replace ```[sitename]``` with the site name of your site and "wcmdemo7" with "sites7" when moved to production.
 
 
 ###Testing Client Experience
