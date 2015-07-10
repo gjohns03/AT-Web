@@ -1,12 +1,13 @@
 /* AT Default Styles */
+
 /* Fixes broken styles for Styles.css and Bootstrap */
-/* Built in CKEditor Styles*/
 #main section[role="main"], .region-navigation {
     border-left: 0px;
     border-right: 0px;
     padding:  0px;
 }
 
+/* Built in CKEditor Style Fixes*/
 .attention {
     border-radius: 5px;
     margin: 10px 0px;
@@ -173,8 +174,4 @@ a.btn-primary
     border: 1px solid #f9f9f9;
     border-left: 5px solid #ffcc33;
     border-radius: 5px;
-}
-
-.block-clear {
-    clear: both;
 }
