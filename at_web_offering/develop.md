@@ -11,13 +11,13 @@ Input and update content
 3. inject AT CSS
 4. inject AT JS if applicable (not needed yet)
 5. configure CKEditor
-6. create login redirect to keep users out of administrative view (no workable solution)
+6. create login redirect to keep users out of administrative view
 7. Use AT Base Demo site or features for approved views
 
 ###Import Default AT CSS
 1. Enable "CSS Injector" module
 2. Configuration > CSS injector > Add
-    3. Friendly name = AT Default Styles or AT New Styles
+    3. Friendly name = AT Default Styles
     4. Description = Fixes broken styles for Styles.css and Bootstrap and Adds AT Styles
     5. CSS code if using new fonts = ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new.css);```
     5. For all sites, add CSS line = ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);``` for new fonts add 
@@ -57,9 +57,9 @@ A method for users to log in and be redirected to the homepage.  This will bypas
 4. Replace ```[sitename]``` with the site name of your site and "wcmdemo7" with "sites7" when moved to production.
 
 
-###Testing Client Experience
+###Adding Users through Gateway
 
-Site Managers default view is Full Admin.  Managers can be added as a member of other user groups (ie Editor).
+Add Users only after they have completed the basic Drupal training.  Site Managers default view is Full Admin.  Managers can be added as a member of other user groups (ie Editor).  
 
 1. Log in to SF State Gateway
 2. Select "IT Services"
