@@ -32,9 +32,9 @@ Input and update content
     6. ![Image of CKEditor menu](https://wcmdemo7.sfsu.edu/academic/sites/wcmdemo7.sfsu.edu.academic/files/CKEditor%20Menu.jpg)
 7. Modify "CSS" 
     8. Set "Editor CSS" to Define CSS
-    9. Enter "CSS file path" to [https://cdn.rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default_ckeditor.css]
+    9. Enter "CSS file path" to [https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default_ckeditor.css]
     10. Set "Predefined styles" to Define path to ckeditor.style.js
-    11. Enter "Predefined styles path" to [https://cdn.rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_ckeditor.styles.js]
+    11. Enter "Predefined styles path" to [https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_ckeditor.styles.js]
         12. Default is: https://github.com/gjohns03/AT-Web/blob/master/at_web_offering/ckeditor.styles.js
 
 ###Configure CKEditor HTML (Editor) Text format
