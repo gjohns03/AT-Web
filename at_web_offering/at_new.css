@@ -1,15 +1,10 @@
-/* AT New Styles */
+/* AT New Font Styles */
+
 /* Fonts */
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600);
 
 body {
   font-family: "Open Sans", sans-serif;
-}
-
-#main section[role="main"], .region-navigation {
-    border-left: 0px;
-    border-right: 0px;
-    padding:  0px;
 }
 
 /* typography */
@@ -92,10 +87,6 @@ hr {
   color: #fff;
 }
 
-.region-content ul li, ol li, .region-sidebar-second ul li, ol li {
-    margin-left: 10px
-}
-
 /* navigation */
 #main .region-sidebar-first a:hover, #main .region-sidebar-first a:focus {
     color:#330033;
@@ -114,140 +105,10 @@ hr {
     color:#6b6d76;
 }
 
-/* AT Block Styles*/
-.tile {
-    color: #fff;
-    background-color: #565656;
-    border-radius: 5px;
-    border-left: 5px solid #ffcc33;
-    padding: 10px;
-    margin: 10px 0px;
-}
-
-#main .tile h2 {
-    color: #ffcc33;
-}
-
-#main .tile p {
-    color: #fff;
-}
-
-#main .tile a {
-    color: #ffe699;
-}
-
-#main .tile a:hover, #main .well-dark a:focus {
-    color: #ffcc33;
-    border-bottom: 1px solid #ffcc33;
-}
-
-.tile img{
-    border: 1px solid #fff;
-}
-
-.well {
-    border-radius: 5px;
-    margin: 10px 0px;
-    padding: 10px;
-}
-
-.well-dark {
-    border-radius: 5px;
-    padding: 10px;
-    background: #303;
-    margin: 10px 0px;
-    color: #f9f9f9;
-}
-#main .well-dark p {
-    color: #f9f9f9;
-}
-
-#main .well-dark h2 {
-    border-left: 4px solid #ffcc33;
-    color: #fff;
-    padding: 5px
-}
-
-#main .well-dark a{
-    color: #ffe699;
-}
-
-#main .well-dark a:hover, #main .well-dark a:focus {
-    color: #ffcc33;
-    border-bottom: 1px solid #ffcc33;
-}
-
-.well-dark img{
-    border: 1px solid #fff;
-}
-
-.well-clean {
-    padding: 10px;
-    margin: 10px 0px;
-}
-
-#main .well-clean h2 {
-    color: #fff;
-    background: #303;
-    padding: 15px 10px 10px 10px;
-    margin-top: 0px;
-}
-
-.well-accent {
-    padding: 10px;
-    margin: 10px 0px;
-    border: 1px solid #f9f9f9;
-    border-left: 5px solid #ffcc33;
-    border-radius: 5px;
-}
-
-.block-clear {
-    clear: both;
-}
-    
+ 
 /* Table Style */
-.table th:first-child {
-    width: 30%;
-}
 
-#main thead,#main thead th {
-    background:#303;
-    color: #fff;
-    text-transform: uppercase;
-    border-right: 1px solid #fff;
-}
 
 #main table caption {
     color: #6b6d76;
-    font-size: 1.1em;
-    font-weight: bold;
-}
-
-/* CKEditor Styles */ 
-
-.attention {
-    border-radius: 5px;
-    margin: 10px 0px;
-    padding: 10px;
-    background-color: #ffffcc;
-    border: 1px solid #ffe699;
-}
-    
-.announcement img {
-    float: left;
-    margin: 0px 15px 15px 0px;
-    max-width: 200px;
-}
-
-.announcement {
-    margin-bottom: 15px;
-    padding: 15px;
-    display: inline-block;
-}
-
-.caption {
-    font-size: 85%;
-    line-height: 150%;
-    font-style: italic;
-    color: #505066;
 }
