@@ -15,6 +15,7 @@
 5. Email drupalsupport@sfsu.edu with the approvals from DPRC and University Communications and request that your site be moved to production (sites7.sfsu.edu/sitename).
 6. Request a subdomain name for the site (sitename.sfsu.edu) to drupalsupport@sfsu.edu. The subdomain can provide support for HTTP access but not HTTPS access.
 7. Request a URL redirect for the old site to drupalsupport@sfsu.edu.
+8. Update login link on the /login page by replacing ```wcmdemo7``` with ```sites7```.
 8. Search who is linking to your site and contact customers who are linking to the site to notify them that the site is updated and that the links to the site have changed.
     9. In Google search, type link:site-url (e.g.:  link:http://sfsu.edu)
     10. Google will list all the indexed web pages that are linking in (both internal and external web pages).
