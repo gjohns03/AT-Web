@@ -28,7 +28,7 @@ Input and update content
 1. Configuration > Content authoring > CKEditor > edit SFSUEDitor
 2. Modify the Editor Appearance
     3. Add buttons: Increase Indent, Decrease Indent, Unlink, Source, and Insert Horizontal Line.
-    4. Remove buttons: Drupal Break, Check Spelling, Add Vimeo Video, Copy, Paste.
+    4. Remove buttons: Drupal Break, Add Vimeo Video, Copy, Paste.
     5. Discuss removing buttons: Anchor, Insert Special Character
     6. ![Image of CKEditor menu](https://wcmdemo7.sfsu.edu/academic/sites/wcmdemo7.sfsu.edu.academic/files/CKEditor%20Menu.jpg)
 7. Modify "CSS" 
@@ -54,7 +54,7 @@ A method for users to log in and be redirected to the homepage.  This will bypas
 1. Content > Add content > Basic page
     2. Create a page called "Login to your site" with URL "login" and save the page.
 3. Go to source code and paste ```<div class="attention"><ol><li>Select the &quot;Login&quot; button below.</li><li>You will be directed to the SF State Global login page.</li><li>Enter your SF State ID and Password.</li><li>You will be redirected to your site homepage following successful login.</li></ol><p></div><a class="btn btn-basic" href="https://wcmdemo7.sfsu.edu/[sitename]/saml_login?ReturnTo=https://wcmdemo7.sfsu.edu/[sitename]">Login</a></p>```
-4. Replace ```[sitename]``` with the site name of your site and "wcmdemo7" with "sites7" when moved to production.
+4. Replace ```[sitename]``` with your site name of your site.
 
 
 ###Adding Users through Gateway
