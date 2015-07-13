@@ -2,12 +2,10 @@
 
 ##With Client
 Input and update content
-* Drupal Content Management ITS (http://drupal.sfsu.edu/drupal-content-management
 
 ##AT Web Support
 
 1. Reguest demo site by submitting a ticket assigned to the Drupal Team with (Site Name, Department Code, Domain name request)
-2. enable AT supported modules (not explored yet)
 3. inject AT CSS
 4. inject AT JS if applicable (not needed yet)
 5. configure CKEditor
@@ -15,7 +13,8 @@ Input and update content
 7. Use AT Base Demo site or features for approved views
 
 ###Import Default AT CSS
-1. Enable "CSS Injector" module
+
+1. Enable "CSS Injector" module 
 2. Configuration > CSS injector > Add
     3. Friendly name = AT Default Styles
     4. Description = Fixes broken styles for Styles.css and Bootstrap and Adds AT Styles
@@ -73,7 +72,7 @@ Other Users can be assigned a new role within the Drupal Site to change the user
 
 Build Basic Block with Views to allow the block content to be editable by users.
 
-**Basic Block**
+####Basic Block
 
 1. Structure > Views > Add new view
     2. "View name" = Editable Content Block
@@ -97,11 +96,11 @@ Build Basic Block with Views to allow the block content to be editable by users.
 2. Select "Clone Block" 
 3. Edit the new block view to grab another node.
 
-**Tiles Block**
+####Tiles Block
 
 Tiles Block are editable content tiles that use the bootstrap column classes to create rows of 1, 2, or 3 and then stack on smaller screen widths.
 
-First Create a Tile Content type
+*First Create a Tile Content type*
 
 1. Structure > Content types > Add content type
 2. Name = "Tile"
@@ -117,7 +116,7 @@ First Create a Tile Content type
 11. Position "Image" field above the "Body"
 12. Update permissions, People > Permissions
 
-Second Create a Tile View
+*Second Create a Tile View*
 
 1. Structure > Views > Add new view
     2. "View name" = Editable Tiles Block
