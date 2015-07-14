@@ -39,6 +39,10 @@
     font-weight: bold;
 }
 
+#main .text-over h2 { 
+    text-transform: capitalize;
+}
+
 .tagline {
     color: #fc3;
 }
