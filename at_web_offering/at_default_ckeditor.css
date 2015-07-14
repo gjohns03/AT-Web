@@ -1,4 +1,13 @@
+/* Import Style Sheets to be used in CKEditor */
+
+/* SF State Default Styles*/
 @import url(https://sites7.sfsu.edu/drupal/sites/all/themes/sfstate_template/css/style.css);
+
+/* Bootstrap */
 @import url(https://sites7.sfsu.edu/drupal/sites/all/themes/sfstate_template/bootstrap/css/bootstrap.min.css);
-@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);
+
+/* Font Awesome Icons */
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+/* Academic Technology Default Styles */
+@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);
