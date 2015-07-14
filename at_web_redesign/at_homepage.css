@@ -196,6 +196,10 @@ btn-request:hover {
     margin-bottom: 0px;
 }
 
+.region-sidebar-secong .block {
+    padding-bottom: 25px;
+}
+
 
 /* Blog Posts */
 .author {
