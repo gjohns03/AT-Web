@@ -200,6 +200,9 @@ btn-request:hover {
     padding-bottom: 25px;
 }
 
+.region-sidebar-second blockquote {
+    margin-bottom: 0px;
+}
 
 /* Blog Posts */
 .author {
