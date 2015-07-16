@@ -1,6 +1,6 @@
-##Web Support Design
+#Web Support Design
 
-**With Client**
+##With Client
 * Determine target Audience
 * Develop 3 User Personas
     * name, title, 1-2 sentence story describing the persona) – behavior, attitudes, attributes of key users
@@ -9,7 +9,7 @@
     * Prioritize content
     * Assign due dates
 
-**AT Web Support**
+##AT Web Support
 * Scope
 * Site crawl/content inventory/content audit (https://www.xml-sitemaps.com)
     * url, title, format, online readability, photos, meta data
@@ -24,8 +24,10 @@
     * https://wireframe.cc/MRANhk
     * Web Layout Guidelines
 
-##File Matrix
+###File Matrix
+
 Generate Website File Report
+
 1. Navigate to SSB Bart tool (AMP)
 2. Log in with username and password supplied by DPRC
 3. Run an automated accessibility report on current client site
@@ -66,8 +68,9 @@ Some other cases:
 * Archived documents that will be phased out can provide a timeline for when they will be removed from the website.
 * Large manuals that are regularly updated and designed to be printed (ex CS user guide) will be made accessible.  The department will need to maintain the manual accessibility through updates.
 
-##Page Templates
-###Header/Menu Layout
+###Page Templates
+
+####Header/Menu Layout
 
 Template structure basics provided by University Communications.
 
