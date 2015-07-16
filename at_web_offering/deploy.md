@@ -5,11 +5,24 @@
 
 ##AT Web Support
 
-1. Pass the SF State Website Assessment ([ACCESS](http://www.sfsu.edu/access/webaccess/index.html#requirements))
-    2. Go through all content pages and strip away any html styling. Check to see that headers are being used in the heirearchical structure.
-    3. Run the automated [SSBBart tool](https://sfsu.ssbbartgroup.com/index.php) and fix errors. 
-    4. Fill out manual assessment (Cheat Sheet below or use[DPRC guidelines]( http://www.sfsu.edu/access/webaccess/assessment.html)).
-    5. Submit manual assessment to DPRC, access@sfsu.edu, with file accessibility matrix (if necessary).
+###Pass the SF State Website Assessment ([ACCESS](http://www.sfsu.edu/access/webaccess/index.html#requirements))
+2. Go through all content pages and strip away any html styling. 
+3. Check to see that headers are being used in the heirearchical structure.
+3. Run the automated [SSBBart tool](https://sfsu.ssbbartgroup.com/index.php) and fix errors.
+    1. Navigate to SSB Bart tool (AMP)
+    2. Log in with username and password supplied by DPRC
+    3. Run an automated accessibility report on current client site
+        4. Dashboard > Accessibility on Demand
+        5. Enter current client site URL in "Start URL"
+        6. Select "Advanced Configuration Options"
+            7. Change "Max. Page Count" to a value at least 2 times the number of pages in the current site
+            8. Select "Path Restriction"
+            9. Select "Make it happen"
+    10. Select report link when the test is completed
+    
+4. Fill out manual assessment (Cheat Sheet below or use[DPRC guidelines]( http://www.sfsu.edu/access/webaccess/assessment.html)).
+5. Submit manual assessment to DPRC, access@sfsu.edu, with file accessibility matrix (if necessary).
+    
 4. Meet branding requirements
     5. The new site must meet branding requirements and be approved by University Communications. If only AT supported styles are used which are preapproed by University Communications, the sites should pass without issues.
 5. Email drupalsupport@sfsu.edu with the approvals from DPRC and University Communications and request that your site be moved to production (sites7.sfsu.edu/sitename).
