@@ -6,11 +6,15 @@ Input and update content
 ##AT Web Support
 
 1. Reguest demo site by submitting a ticket assigned to the Drupal Team with (Site Name, Department Code, Domain name request)
+2. Enable AT required modules/AT Feature
 3. inject AT CSS
 4. inject AT JS if applicable (not needed yet)
 5. configure CKEditor
 6. create login redirect to keep users out of administrative view
 7. Use AT Base Demo site or features for approved views
+
+###Enable AT Modules
+1. CSS Injector, 
 
 ###Import Default AT CSS
 
@@ -26,7 +30,7 @@ Input and update content
 
 1. Configuration > Content authoring > CKEditor > edit SFSUEDitor
 2. Modify the Editor Appearance
-    3. Add buttons: Increase Indent, Decrease Indent, Unlink, Source, and Insert Horizontal Line.
+    3. Add buttons: Block Quote, Increase Indent, Decrease Indent, Unlink, Source, and Insert Horizontal Line.
     4. Remove buttons: Drupal Break, Add Vimeo Video, Copy, Paste.
     5. Discuss removing buttons: Anchor, Insert Special Character
     6. ![Image of CKEditor menu](https://wcmdemo7.sfsu.edu/academic/sites/wcmdemo7.sfsu.edu.academic/files/CKEditor%20Menu.jpg)
@@ -42,7 +46,7 @@ Input and update content
 
 1. Configuration > Content authoring > Text formats > CKEditor HTML (Editor)
 2. In Filter settings section > WYSIWYG Filter > HTML elements and attributes
-    3. Replace elements with ```@[id|class|title|aria-hidden],a[class|href|name|target|title],p,div,h1,h2,h3,h4,h5,h6,img[src|alt|height],hr,br,ul,ol,li,span,table[class|sortable|summary],tr,th[abbr|scope|sorted|colspan|headers|rowspan],td[colspan|headers|rowspan],em,b,u,i,strong,caption,thead,tbody,iframe[*]```
+    3. Replace elements with ```@[id|class|title|aria-hidden],a[class|href|name|target|title],p,div,h1,h2,h3,h4,h5,h6,img[src|alt|height],hr,br,ul,ol,li,span,table[class|sortable|summary],tr,th[abbr|scope|sorted|colspan|headers|rowspan],td[colspan|headers|rowspan],em,b,u,i,strong,blockquote,caption,thead,tbody,iframe[*]```
 4. In Filter settings section > WYSIWYG Filter > Rules for Class Names
     5. Add classes ```announcement,attention,btn,btn-basic,btn-info,btn-primary,fa*,glyphicon*,well,```
     
