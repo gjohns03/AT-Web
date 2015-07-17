@@ -46,7 +46,7 @@ Input and update content
 
 1. Configuration > Content authoring > Text formats > CKEditor HTML (Editor)
 2. In Filter settings section > WYSIWYG Filter > HTML elements and attributes
-    3. Replace elements with ```@[id|class|title|aria-hidden],a[class|href|name|target|title],p,div,h1,h2,h3,h4,h5,h6,img[src|alt|height],hr,br,ul,ol,li,span,table[class|sortable|summary],tr,th[abbr|scope|sorted|colspan|headers|rowspan],td[colspan|headers|rowspan],em,b,u,i,strong,blockquote,caption,thead,tbody,iframe[*]```
+    3. Replace elements with ```@[id|class|title|aria-hidden],a[class|href|name|target|title],p,div,h1,h2,h3,h4,h5,h6,img[src|alt|height],hr,br,ul,ol,li,span,table[class|sortable|summary],tr,th[abbr|scope|sorted|colspan|headers|rowspan],td[colspan|headers|rowspan],em,b,u,i,strong,blockquote,caption,thead,tbody,iframe[*],abbr[title]```
 4. In Filter settings section > WYSIWYG Filter > Rules for Class Names
     5. Add classes ```announcement,attention,btn,btn-basic,btn-info,btn-primary,fa*,glyphicon*,well,```
     
