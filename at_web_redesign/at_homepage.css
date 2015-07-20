@@ -228,13 +228,20 @@ i.icon-3x {
     margin-top: 10px;
 }
 
-/* Service Request Page */ 
+/* Service Request Page */
+.service-request {
+    min-height: 300px;
+}
+
 .service-request .pr, .service-request .yl {
     border-radius: 50%;
     text-align: center;
     color: #fff;
     padding: 20px;
     font-size: 1.5em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .service-request i {
@@ -253,6 +260,7 @@ i.icon-3x {
 
 .pr {
     background-color: #303;
+    position
 }
 
 .yl {
