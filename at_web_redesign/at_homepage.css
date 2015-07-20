@@ -233,17 +233,22 @@ i.icon-3x {
     border-radius: 50%;
     text-align: center;
     color: #fff;
-    padding: 10px;
+    padding: 20px;
     font-size: 1.5em;
 }
 
 .service-request i {
     color: #fff;
     font-size: 6em;
+    padding-left: 20px;
 }
 
-#main .service-request h2{
-    color: #fff;
+#main .service-request .pr h2{
+    color: #fc3;
+}
+
+#main .service-request .yl h2{
+    color: #303;
 }
 
 .pr {
