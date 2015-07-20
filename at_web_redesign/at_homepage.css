@@ -228,7 +228,35 @@ i.icon-3x {
     margin-top: 10px;
 }
 
-/* Side Bar Region*/
+/* Service Request Page */ 
+.service-request .pr, .service-request .yl {
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.service-request i {
+    color: #fff;
+    font-size: 6em;
+}
+
+#main .service-request h2{
+    color: #fff;
+}
+
+.pr {
+    background-color: #303;
+}
+
+.yl {
+    background-color: #fc3;
+}
+
+
+/* Side Bar Region
 #block-views-testimonial-displays-block h2 {
     
-}
+}*/
+
