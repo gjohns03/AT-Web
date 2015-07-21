@@ -16,26 +16,26 @@
     background-color: #ffe699;
 }
 
-.nav {
+#block-system-main-menu .nav {
     font-size: 120%;
     font-weight: bold;
     margin: auto;
 }
 
 @media (min-width: 768px){
-.nav {
+#block-system-main-menu .nav {
   width: 750px;
 }
 }
 
 @media (min-width: 992px){
-.nav {
+#block-system-main-menu .nav {
   width: 970px;
 }
 }
 
 @media (min-width: 1200px){
-.nav {
+#block-system-main-menu .nav {
   width: 1170px;
 }
 }
