@@ -19,8 +19,25 @@
 .nav {
     font-size: 120%;
     font-weight: bold;
-    width: 1170px;
     margin: auto;
+}
+
+@media (min-width: 1200px){
+.nav {
+  width: 1170px;
+}
+}
+
+@media (min-width: 992px){
+.nav {
+  width: 970px;
+}
+}
+
+@media (min-width: 768px){
+.nav {
+  width: 750px;
+}
 }
 
 #header .leaf{
