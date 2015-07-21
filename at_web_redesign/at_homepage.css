@@ -80,6 +80,10 @@
   width: 40%;
 }
 
+.btn-read {
+    margin-right: 15px;
+}
+
 #main .btn-read a {
   display: block;
   background-color: none;
