@@ -94,8 +94,8 @@
   font-weight: bold;
 }
 
-#main btn-read a:hover {
-  border-color: #ffe699;
+#main .btn-read a:hover {
+  border: 1px solid #ffe699;
 }
 
 #main .btn-request a {
@@ -108,7 +108,7 @@
    font-weight: bold;
 }
 
-#main btn-request a :hover {
+#main .btn-request a:hover {
   background-color: #ffcc33;
   border-color: #ffcc33;
 }
