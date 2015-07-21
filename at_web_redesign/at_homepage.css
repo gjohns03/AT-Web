@@ -75,10 +75,15 @@
     color: #fc3;
 }
 
+.btn-read, .btn-request {
+  display: inline-block;
+  width: 40%;
+}
+
 #main .btn-read a {
   display: block;
   background-color: none;
-  border-color: #fff;
+  border-color: 1px solid #fff;
   border-radius: 5px;
   padding: 8px;
   width: 100%; 
@@ -92,7 +97,7 @@
 .btn-request a {
    display: block; 
    background-color: #ffe699;
-   border-color: #fc3;
+   border-color: 1px solid #fc3;
    border-radius: 5px;
    padding: 8px;
    width: 100%;    
