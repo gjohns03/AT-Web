@@ -1,3 +1,9 @@
+/* Site Name*/
+#header .navbar-brand {
+  font-size: 2em;
+  font-weight: normal;
+}
+
 /* Navbar Header */
 #main section[role="main"], .region-navigation {
     border-left: 0px;
@@ -17,6 +23,9 @@
 
 #header .leaf{
     display: inline-block;
+    min-width: 15%;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 #header .leaf a{
