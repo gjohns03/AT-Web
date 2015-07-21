@@ -21,6 +21,21 @@
     font-weight: bold;
 }
 
+@media (min-width: 1200px)
+.nav {
+  width: 1170px;
+}
+
+@media (min-width: 992px)
+.nav {
+  width: 970px;
+}
+
+@media (min-width: 768px)
+.nav {
+  width: 750px;
+}
+
 #header .leaf{
     display: inline-block;
     min-width: 15%;
