@@ -94,7 +94,7 @@
   border-color: #ffe699;
 }
 
-.btn-request a {
+#main .btn-request a {
    display: block; 
    background-color: #ffe699;
    border-color: 1px solid #fc3;
@@ -104,9 +104,10 @@
    font-weight: bold;
 }
 
-btn-request a :hover {
+#main btn-request a :hover {
   background-color: #ffcc33;
-  border-color: #ffcc33;}
+  border-color: #ffcc33;
+}
 
 .blog-tile, .blog-tile-side, .blog-banner {
     padding: 0px;
