@@ -249,6 +249,20 @@
   margin-left: 15px;
 }
 
+#main .blog-btn-request a {
+   background-color: #ffe699;
+   border: 1px solid #fc3;
+   border-radius: 5px;
+   padding: 8px 20% 8px 20%;
+   font-weight: bold;
+}
+
+#main .blog-btn-request a:hover {
+  background-color: #ffcc33;
+  border-color: #ffcc33;
+}
+
+
 /* Pagination */
 .text-center {
     clear: both;
