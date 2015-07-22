@@ -262,6 +262,18 @@
   border-color: #ffcc33;
 }
 
+.tags {
+    margin-bottom: 20px;   
+}
+
+.label-inline {
+  display: inline;
+  font-weight: bold;
+}
+
+.label-inline:last-child {
+  padding-right: 20px;
+}
 
 /* Social */
 .social a {
