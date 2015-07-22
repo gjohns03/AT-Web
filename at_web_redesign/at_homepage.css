@@ -168,12 +168,6 @@
     border-left: 10px solid #fc3;
 }
 
-.view-taxonomy-term .text-over {
-    width: 65%;
-    margin-top: 10%
-}
-
-
 @media(max-width:991px){
 .text-over {
     background-color: rgba(0, 0, 0, 0.65);
