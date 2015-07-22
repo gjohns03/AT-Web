@@ -247,6 +247,13 @@
 .author {
   margin-bottom: 10px;
   margin-left: 15px;
+    border-left: 4px solid #ffe699;
+    padding-left: 15px;
+}
+
+.author-name {
+  display: inline;
+  text-transform: uppercase;
 }
 
 #main .blog-btn-request a {
