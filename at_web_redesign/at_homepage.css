@@ -262,8 +262,12 @@
   border-color: #ffcc33;
 }
 
-.tags {
-    margin-bottom: 20px;   
+.tags-category {
+    margin: 20px 0px 10px 0px;   
+}
+
+.tags- {
+    margin-bottom: 10px;   
 }
 
 .label-inline {
