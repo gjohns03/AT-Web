@@ -262,6 +262,10 @@
   border-color: #ffcc33;
 }
 
+.blog-btn-request {
+    margin-top: 25px;
+}
+
 .tags-category {
     margin: 20px 0px 10px 0px;   
 }
