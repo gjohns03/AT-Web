@@ -188,7 +188,7 @@
 .text-over-tile {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
-    font-size: 1.8em;
+    font-size: 1.4em;
     position: absolute; 
     z-index: 1; 
     bottom: 0; 
