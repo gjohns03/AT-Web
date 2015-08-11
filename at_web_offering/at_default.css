@@ -75,8 +75,8 @@ a.btn-primary
 }
 
 /* Tables */
-.table th:first-child {
-    width: 30%;
+.table {
+    table-layout: fixed;
 }
 
 #main thead, #main thead th {
