@@ -45,11 +45,11 @@ Tutorials covering the basics of Drupal.  Accessibility will be noted as a goal 
 * Content Revisions and Reverting
 * Log in Exercises
 
-**To log in to the AR Drupal site:**
+**To log in to the ```<sitename>``` Drupal site:**
 
-1. Navigate to https://wcmdemo7.sfsu.edu/<sitename>/login
+1. Navigate to https://wcmdemo7.sfsu.edu/```<sitename>```/login
 2. Enter your SF State ID and password
-3. You will be reidrected to your site homepage.
+3. You will be redirected to your site homepage.
 
 **To log in to the SF State Qualtrics Survey Software:**
 
