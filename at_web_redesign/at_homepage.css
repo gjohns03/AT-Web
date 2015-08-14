@@ -334,8 +334,11 @@ i.icon-3x {
 }
 
 
-/* Side Bar Region
-#block-views-testimonial-displays-block h2 {
+/* Side Bar Region */
+/*#block-views-testimonial-displays-block h2 {
     
 }*/
-
+#block-views-blog-displays-block .tile img{
+    boder: 2px;
+    border-radius: 50%;
+} 
