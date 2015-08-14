@@ -108,6 +108,7 @@ Tiles Block are editable content tiles that use the bootstrap column classes to 
 
 1. Structure > Content types > Add content type
 2. Name = "Tile"
+2. Deselect "Display author and date information" in Display settings
 2. Publishing options = "Published", "Create new revision"
 3. Comment settings > "Closed"
 4. Select "Save content type"
@@ -117,6 +118,8 @@ Tiles Block are editable content tiles that use the bootstrap column classes to 
     8. Field Type = Select "Image"
     9. Widget = Select "Image"
     10. Select "Save"
+    11. Check the "Enable Alt field" checkbox
+    12. Select "Save settings"
 11. Position "Image" field above the "Body"
 12. Update permissions, People > Permissions
 
