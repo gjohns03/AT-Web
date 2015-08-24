@@ -11,3 +11,16 @@ Touch base with all supported uints on a semi-annual basis.  See if there are an
 * Send out Google analytics report with a reminder to maintain well structured content.
 * Run SSB Bart automated assessment tool.  Fix errors or use as a training exercise for users.
 * Send out newsletter highlighting AT offerings, successes, and web tips.
+
+###Google Analytics
+
+####Add an Annotation
+
+Add annotations for site launch, site updates that effect traffic goals, 
+
+1. Log into Google Analytics
+2. Select the "Reporting" tab
+3. Select the pull down arrow below the timeline
+4. Select "Create new annotation" and enter the date and note
+5. Select "Save"
+
