@@ -338,7 +338,20 @@ i.icon-3x {
 /*#block-views-testimonial-displays-block h2 {
     
 }*/
-#block-views-blog-displays-block .tile img{
-    boder: 2px;
+
+.testimonial {
+    max-width: 50%;
+    margin:auto;
+}
+
+.testimonial img{
+    boder: 2px solid;
     border-radius: 50%;
-} 
+}
+
+@media(max-width: 767px){
+    .testimonial img{
+        max-width: 20%;
+        float: left;
+    }
+}
