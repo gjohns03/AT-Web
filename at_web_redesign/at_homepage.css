@@ -345,7 +345,7 @@ i.icon-3x {
 }
 
 .testimonial img{
-    boder: 2px solid;
+    border: 2px solid;
     border-radius: 50%;
 }
 
@@ -358,5 +358,9 @@ i.icon-3x {
         max-width: 15%;
         float: left;
     }
-    
+}
+
+user-profile {
+    float: right;
+    padding-left: 10px;    
 }
