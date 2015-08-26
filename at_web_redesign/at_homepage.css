@@ -350,8 +350,13 @@ i.icon-3x {
 }
 
 @media(max-width: 767px){
+    .testimonial {
+        max-width: 100%;
+        margin: 0px 15px;
+    }
     .testimonial img{
-        max-width: 20%;
+        max-width: 15%;
         float: left;
     }
+    
 }
