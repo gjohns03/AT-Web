@@ -94,7 +94,7 @@ Bootstrap Glyphicons vs 3.2.0
 4. Paste ```<span class="glyphicon <name>" aria-hidden="true">&nbsp;</span>``` in your code, replacing <name> with the text from step 2
 5. Select "Save"
 
-FontAwesome Icons vs 4.1.0
+FontAwesome Icons vs 4.4.0
 
 1. Navigate to http://fontawesome.io/icons/
 2. Select the desired icon and copy the icon name after the icon (ex. fa-adjust)
