@@ -349,9 +349,10 @@ i.icon-3x {
     border-radius: 50%;
 }
 
-blockquote {
-    font-size: inherit;
-}
+@media)(min-width: 768){
+    blockquote {
+        font-size: inherit;
+    }}
 
 @media(max-width: 767px){
     .testimonial {
