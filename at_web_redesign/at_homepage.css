@@ -355,8 +355,11 @@ i.icon-3x {
         margin: 0px 15px;
     }
     .testimonial img{
-        max-width: 15%;
+        max-width: 90px;
         float: left;
+    }
+    blockquote {
+        margin-top: 20px;
     }
 }
 
