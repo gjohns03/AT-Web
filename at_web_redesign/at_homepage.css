@@ -348,6 +348,10 @@ i.icon-3x {
     border-radius: 50%;
 }
 
+#main .region-sidebar-second .testimonial img {
+    margin: 5px 20px 10px 0;
+}
+
 @media(min-width: 768px){
     blockquote {
         font-size: inherit;
@@ -375,3 +379,4 @@ i.icon-3x {
 .about-author .author-name {
     color: #ffe699;
 }
+
