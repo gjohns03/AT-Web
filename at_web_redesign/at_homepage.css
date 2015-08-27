@@ -349,7 +349,7 @@ i.icon-3x {
     border-radius: 50%;
 }
 
-@media(min-width: 768){
+@media(min-width: 768px){
     blockquote {
         font-size: inherit;
     }}
