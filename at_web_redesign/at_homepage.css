@@ -349,6 +349,10 @@ i.icon-3x {
     border-radius: 50%;
 }
 
+blockquote {
+    font-size: inherit;
+}
+
 @media(max-width: 767px){
     .testimonial {
         max-width: 100%;
@@ -363,7 +367,7 @@ i.icon-3x {
     }
 }
 
-user-profile {
+.user-profile {
     float: right;
     padding-left: 10px;    
 }
