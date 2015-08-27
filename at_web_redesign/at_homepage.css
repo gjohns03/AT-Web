@@ -380,3 +380,6 @@ i.icon-3x {
     color: #ffe699;
 }
 
+.author-bio p, .author-bio bio-more {
+    display: inline;
+}
