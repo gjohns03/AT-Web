@@ -326,7 +326,6 @@ i.icon-3x {
 
 .pr {
     background-color: #303;
-    position
 }
 
 .yl {
@@ -371,4 +370,8 @@ i.icon-3x {
 .user-profile img {
     float: right;
     padding-left: 10px;    
+}
+
+.about-author .author-name {
+    color: #ffe699;
 }
