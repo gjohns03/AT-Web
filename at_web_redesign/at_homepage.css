@@ -138,14 +138,6 @@
     transform:scale(1.1);
 }
 
-.blog-tile img:hover, .blog-tile-side img:hover {
-    -webkit-transform:scale(1.1); /* Safari and Chrome */
-    -moz-transform:scale(1.1); /* Firefox */
-    -ms-transform:scale(1.1); /* IE 9 */
-    -o-transform:scale(1.1); /* Opera */
-    transform:scale(1.1);
-}
-
 #main .blog-tile a {
     color: #fff;
 }
