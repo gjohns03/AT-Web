@@ -61,7 +61,7 @@
         margin-top: 0px;
     }
 
-.text-over p, #main .text-over h2, #main .text-over .btn-read a, #main .region-sidebar-second .side-posts a {
+.text-over p, #main .text-over h2, #main .text-over .btn-read a, #expand-wrapper .text-over-tile {
     color: #fff;
     margin-bottom: 20px;
     font-weight: bold;
@@ -214,7 +214,7 @@
 }
 
 @media(min-width: 768px){
-    .region-sidebar-second .text-over-tile {
+    #expand-wrapper .text-over-tile {
     font-size: 1em;
     }
 }
