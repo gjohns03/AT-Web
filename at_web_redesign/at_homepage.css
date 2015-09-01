@@ -61,7 +61,7 @@
         margin-top: 0px;
     }
 
-.text-over p, #main .text-over h2, #main .text-over .btn-read a, #expand-wrapper .text-over-tile a {
+.text-over p, #main .text-over h2, #main .text-over .btn-read a, #expand-wrapper .text-over-tile a, #expand-wrapper .text-over-tile a:hover {
     color: #fff;
     margin-bottom: 20px;
     font-weight: bold;
