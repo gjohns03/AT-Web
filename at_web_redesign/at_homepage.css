@@ -61,7 +61,7 @@
         margin-top: 0px;
     }
 
-.text-over p, #main .text-over h2, #main .text-over .btn-read a, #expand-wrapper .text-over-tile {
+.text-over p, #main .text-over h2, #main .text-over .btn-read a, #expand-wrapper .text-over-tile a {
     color: #fff;
     margin-bottom: 20px;
     font-weight: bold;
