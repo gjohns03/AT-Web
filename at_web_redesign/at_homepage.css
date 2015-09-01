@@ -67,6 +67,15 @@
     font-weight: bold;
 }
 
+.edit-link {
+    text-align: left;
+}
+
+#main .edit-link a {
+    font-weight: normal;
+    font-style: italic;
+}
+
 #main .text-over h2 { 
     text-transform: capitalize;
 }
