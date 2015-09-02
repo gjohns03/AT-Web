@@ -223,7 +223,7 @@
 }
 
 @media(min-width: 768px){
-    #expand-wrapper .text-over-tile {
+    .region-sidebar-second .text-over-tile {
     font-size: 1em;
     }
 }
