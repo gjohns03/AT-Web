@@ -147,7 +147,7 @@
   border-color: #ffcc33;
 }
 
-/* Tile styling on main content below and sidebar */
+/* Tile styling on main content and sidebar */
 .text-over-tile {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
@@ -232,9 +232,9 @@
 }
 
 /* See if this is needed????!??!?  seems redundant*/
-#main .blog-tile a {
+/*#main .blog-tile a {
     color: #fff;
-}
+}*/
 
 /* List styling for the blog tiles under large banner tile on landing pages */
 .tile-list {
