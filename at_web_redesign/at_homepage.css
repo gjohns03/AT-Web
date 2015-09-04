@@ -160,9 +160,6 @@
     padding: 10px;
     text-align: center;
 }
-.tile-list img  {
-    margin: 0px;
-}
 
 @media(min-width: 768px) and (max-width: 991px){
     .text-over-tile {
@@ -237,11 +234,10 @@
     list-style: none;
     padding: 0px;
     margin: 0px;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0px;
+}
+
+.tile-list img  {
+    margin: 0px;
 }
 
 .region-content .tile-list li {
