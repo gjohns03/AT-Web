@@ -162,7 +162,7 @@
 }
 
 @media(min-width: 768px) and (max-width: 991px){
-    .text-over-tile {
+    .blog-tile-side .text-over-tile {
         background-color: #565656;
         width: 100%;
         position: relative;
@@ -179,7 +179,7 @@
     }
 }
 
-@media(max-width: 767px){
+@media(max-width: 991px){
     .blog-tile {
         border-top: 10px solid #fff;
     }
