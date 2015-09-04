@@ -64,8 +64,9 @@
 }
 
 /* Text over Image Elements */
+/* White Text to be over transparent gray background */
 
-/* White Text over transparent gray background */
+/* White Text for page banner and blog tiles*/
 .text-over p, #main .text-over h2, #main .text-over .btn-read a, #expand-wrapper .text-over-tile a, #expand-wrapper .text-over-tile a:hover {
     color: #fff;
     margin-bottom: 20px;
@@ -86,19 +87,19 @@
 }
 
 @media(max-width:991px){
-.text-over {
-    background-color: rgba(0, 0, 0, 0.65);
-    border-radius: 0px;
-    width: 100%;
-    top: initial;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-    margin: 0px;
-}
-.view-taxonomy-term .text-over {
-    width: 100%;
-}
+    .text-over {
+        background-color: rgba(0, 0, 0, 0.65);
+        border-radius: 0px;
+        width: 100%;
+        top: initial;
+        bottom: 0;
+        left: 0;
+        padding: 10px;
+        margin: 0px;
+    }
+    .view-taxonomy-term .text-over {
+        width: 100%;
+    }
 }
 
 #main .text-over h2 { 
@@ -110,8 +111,8 @@
 }
 
 .btn-read, .btn-request {
-  display: inline-block;
-  width: 40%;
+    display: inline-block;
+    width: 40%;
 }
 
 .btn-read {
@@ -119,32 +120,32 @@
 }
 
 #main .btn-read a {
-  display: block;
-  background-color: none;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  padding: 8px;
-  width: 100%; 
-  font-weight: bold;
+    display: block;
+    background-color: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%; 
+    font-weight: bold;
 }
 
 #main .btn-read a:hover {
-  border: 1px solid #ffe699;
+    border: 1px solid #ffe699;
 }
 
 #main .btn-request a {
-   display: block; 
-   background-color: #ffe699;
-   border: 1px solid #fc3;
-   border-radius: 5px;
-   padding: 8px;
-   width: 100%;    
-   font-weight: bold;
+    display: block; 
+    background-color: #ffe699;
+    border: 1px solid #fc3;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;    
+    font-weight: bold;
 }
 
 #main .btn-request a:hover {
-  background-color: #ffcc33;
-  border-color: #ffcc33;
+    background-color: #ffcc33;
+    border-color: #ffcc33;
 }
 
 /* Tile styling on main content and sidebar */
@@ -164,20 +165,20 @@
 }
 
 @media(min-width: 768px) and (max-width: 991px){
-.text-over-tile {
-    background-color: #565656;
-    width: 100%;
-    position: relative;
-    font-size: 1.3em;
-    margin: 0px;
-    padding: 10px;
-    text-align: center;
-}
+    .text-over-tile {
+        background-color: #565656;
+        width: 100%;
+        position: relative;
+        font-size: 1.3em;
+        margin: 0px;
+        padding: 10px;
+        text-align: center;
+    }
 }
 
 @media(min-width: 768px){
     .region-sidebar-second .text-over-tile {
-    font-size: 1em;
+        font-size: 1em;
     }
 }
 
@@ -231,21 +232,16 @@
     transform:scale(1.1);
 }
 
-/* See if this is needed????!??!?  seems redundant*/
-/*#main .blog-tile a {
-    color: #fff;
-}*/
-
 /* List styling for the blog tiles under large banner tile on landing pages */
 .tile-list {
     list-style: none;
     padding: 0px;
     margin: 0px;
     -webkit-margin-before: 0em;
-   -webkit-margin-after: 0em;
-   -webkit-margin-start: 0px;
-   -webkit-margin-end: 0px;
-   -webkit-padding-start: 0px;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
 }
 
 .region-content .tile-list li {
@@ -256,15 +252,15 @@
 
 /* Blog Entry - Header including Author and Tags */
 .author {
-  margin-bottom: 10px;
-  margin-left: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
     border-left: 4px solid #ffe699;
     padding-left: 15px;
 }
 
 .author-name {
-  display: inline;
-  text-transform: uppercase;
+    display: inline;
+    text-transform: uppercase;
 }
 
 .tags-category {
@@ -278,22 +274,22 @@
 }
 
 .label-inline {
-  display: inline;
-  font-weight: bold;
+    display: inline;
+    font-weight: bold;
 }
 
 /* Blog Entry - Request Service & Social networking link buttons */
 #main .blog-btn-request a {
-   background-color: #ffe699;
-   border: 1px solid #fc3;
-   border-radius: 5px;
-   padding: 8px 20% 8px 20%;
-   font-weight: bold;
+    background-color: #ffe699;
+    border: 1px solid #fc3;
+    border-radius: 5px;
+    padding: 8px 20% 8px 20%;
+    font-weight: bold;
 }
 
 #main .blog-btn-request a:hover {
-  background-color: #ffcc33;
-  border-color: #ffcc33;
+    background-color: #ffcc33;
+    border-color: #ffcc33;
 }
 
 .blog-btn-request {
@@ -323,9 +319,6 @@ i.icon-3x {
     color: #fff;
     padding: 20px;
     font-size: 1.5em;
-    /*position: relative;
-    top: 50%;
-    transform: translateY(-50%);*/
 }
 
 .service-request i {
@@ -382,7 +375,8 @@ i.icon-3x {
 @media(min-width: 768px){
     blockquote {
         font-size: inherit;
-    }}
+    }
+}
 
 @media(max-width: 767px){
     .testimonial {
