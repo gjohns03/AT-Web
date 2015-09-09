@@ -18,7 +18,6 @@ if(typeof(CKEDITOR) !== 'undefined') {
 /* Block Styles */
             {name:'Well',element:'div',attributes:{'class':'well'}},
             {name:'Attention',element:'div',attributes:{'class':'attention'}},
-            {name:'Announcement',element:'div',attributes:{'class':'announcement'}},
             {name:'LocalNav',element:'ul',attributes:{'class':'localnav'}},
         
  /* Button Styles Added */
