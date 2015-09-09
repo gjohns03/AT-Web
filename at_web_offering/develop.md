@@ -28,6 +28,8 @@ Input and update content
 
 ###Configure CKEditor Editor profile
 
+This configuration will no longer be necessary after the universal CKEditor roles out.  The univeral editor will consist of Bold, Italics, Remove Formatting; bullet, numbered bullet, decrease indent, increase indent; link, unlink, anchor; undo, redo; maximize, select all; source; Format; Styles; image, table, add YouTube, add Vimeo, insert horizontal line, special character; TBD layouts; TBD Icons.
+
 1. Configuration > Content authoring > CKEditor > edit SFSUEDitor
 2. Modify the Editor Appearance
     3. Add buttons: Block Quote, Increase Indent, Decrease Indent, Unlink, Source, and Insert Horizontal Line.
