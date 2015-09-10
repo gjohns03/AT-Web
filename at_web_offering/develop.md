@@ -28,7 +28,18 @@ Input and update content
 
 ###Configure CKEditor Editor profile
 
-This configuration will no longer be necessary after the universal CKEditor roles out.  The univeral editor will consist of Bold, Italics, Remove Formatting; bullet, numbered bullet, decrease indent, increase indent; link, unlink, anchor; undo, redo; maximize, select all; source; Format; Styles; image, table, add YouTube, add Vimeo, insert horizontal line, special character; TBD layouts; TBD Icons.
+**Universal CKEditor**
+
+1. Configuration > Content authoring > CKEditor > edit All profiles
+2. Modify the Editor Appearance
+    3. Universal CKEditor buttons: Bold, Italics, Remove Formatting; bullet, numbered bullet, decrease indent, increase indent; link, unlink, anchor; undo, redo; maximize, select all; source; Format; Styles; image, table, add YouTube, add Vimeo, insert horizontal line, special character; TBD layouts; TBD Icons.
+    4. ![Image of Universal CKEditor menu](https://wcmdemo7.sfsu.edu/academic/sites/wcmdemo7.sfsu.edu.academic/files/Universal-CKEditor.jpg)
+5. Configuration > Text formats > configure All profile roles
+    6. Select "authenticated user"
+    7. Select "Save configuration"
+
+
+This configuration will no longer be necessary after the universal CKEditor roles out.
 
 1. Configuration > Content authoring > CKEditor > edit SFSUEDitor
 2. Modify the Editor Appearance
@@ -45,6 +56,8 @@ This configuration will no longer be necessary after the universal CKEditor role
 13. Save
 
 ###Configure CKEditor HTML (Editor) Text format
+
+This configuration will no longer be necessary after the universal CKEditor roles out.
 
 1. Configuration > Content authoring > Text formats > CKEditor HTML (Editor)
 2. In Filter settings section > WYSIWYG Filter > HTML elements and attributes
