@@ -67,7 +67,7 @@
 /* White Text to be over transparent gray background */
 
 /* White Text for page banner and blog tiles*/
-.text-over p, #main .text-over h2, #main .text-over .btn-read a, #expand-wrapper .text-over-tile a, #expand-wrapper .text-over-tile a:hover {
+.text-over p, #main .text-over h2, #main .text-over .btn-read a, #main .region-sidebar-second .text-over-tile a, #main .region-sidebar-second .text-over-tile a:hover {
     color: #fff;
     margin-bottom: 20px;
     font-weight: bold;
@@ -224,7 +224,7 @@
     vertical-align: middle;
 }
 
-#expand-wrapper:hover img {
+div[id^="expand-wrapper"]:hover img {
     -webkit-transform:scale(1.1); /* Safari and Chrome */
     -moz-transform:scale(1.1); /* Firefox */
     -ms-transform:scale(1.1); /* IE 9 */
