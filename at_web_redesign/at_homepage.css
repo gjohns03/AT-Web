@@ -359,6 +359,10 @@ i.icon-3x {
     border-radius: 50%;
 }
 
+.testimonial blockquote footer {
+    color: #ffcc33;
+}
+
 #main .region-sidebar-second .testimonial img {
     margin: 5px 20px 10px 0;
 }
