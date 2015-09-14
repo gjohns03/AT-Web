@@ -30,23 +30,12 @@ Input and update content
 
 **Universal CKEditor**
 
+After the Universal CKEditor is rolled out by the Drupal Team the Editor Appearance and the configuration of the text formats will not be necessary.
+
 1. Configuration > Content authoring > CKEditor > edit All profiles
 2. Modify the Editor Appearance
     3. Universal CKEditor buttons: Bold, Italics, Remove Formatting; bullet, numbered bullet, decrease indent, increase indent; link, unlink, anchor; undo, redo; maximize, select all; source; Format; Styles; image, table, add YouTube, add Vimeo, insert horizontal line, special character; TBD layouts; TBD Icons.
     4. ![Image of Universal CKEditor menu](https://wcmdemo7.sfsu.edu/academic/sites/wcmdemo7.sfsu.edu.academic/files/Universal-CKEditor.jpg)
-5. Configuration > Text formats > configure All profile roles
-    6. Select "authenticated user"
-    7. Select "Save configuration"
-
-
-This configuration will no longer be necessary after the universal CKEditor roles out.
-
-1. Configuration > Content authoring > CKEditor > edit SFSUEDitor
-2. Modify the Editor Appearance
-    3. Add buttons: Block Quote, Increase Indent, Decrease Indent, Unlink, Source, and Insert Horizontal Line.
-    4. Remove buttons: Drupal Break, Add Vimeo Video, Copy, Paste.
-    5. Discuss removing buttons: Anchor, Insert Special Character
-    6. ![Image of CKEditor menu](https://wcmdemo7.sfsu.edu/academic/sites/wcmdemo7.sfsu.edu.academic/files/CKEditor%20Menu.jpg)
 7. Modify "CSS" 
     8. Set "Editor CSS" to Define CSS
     9. Enter "CSS file path" to ```https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default_ckeditor.css```.  For new fonts add ```https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new_ckeditor.css```
@@ -54,6 +43,10 @@ This configuration will no longer be necessary after the universal CKEditor role
     11. Enter "Predefined styles path" to ```https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_ckeditor.styles.js```
         12. Default is: ```https://github.com/gjohns03/AT-Web/blob/master/at_web_offering/ckeditor.styles.js```
 13. Save
+5. Configuration > Text formats > configure All profile roles
+    6. Select "authenticated user"
+    7. Select "Save configuration"
+
 
 ###Configure CKEditor HTML (Editor) Text format
 
