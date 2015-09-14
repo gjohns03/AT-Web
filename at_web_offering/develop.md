@@ -23,7 +23,7 @@ Input and update content
     3. Friendly name = AT Default Styles
     4. Description = Fixes broken styles for Styles.css and Bootstrap and Adds AT Styles
     5. CSS code if using new fonts = ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new.css);```
-    5. For all sites, add CSS line = ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);``` for new fonts add 
+    5. For all sites, add CSS line = ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);```
     4. Save
 
 ###Configure CKEditor Editor profile
