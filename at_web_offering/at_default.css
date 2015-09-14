@@ -7,12 +7,15 @@
 }
 
 /* Built in CKEditor Style Fixes*/
-.attention {
-    border-radius: 5px;
-    margin: 10px 0px;
-    padding: 10px;
+.attention, #attention {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
     background-color: #ffffcc;
     border: 1px solid #ffe699;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
 }
 
 .caption {
@@ -105,12 +108,6 @@ a.btn-primary
 
 .tile img{
     border: 1px solid #fff;
-}
-
-.well {
-    border-radius: 5px;
-    margin: 10px 0px;
-    padding: 10px;
 }
 
 .well-dark {
