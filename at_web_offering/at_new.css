@@ -13,9 +13,10 @@ h2, h3, h4 {
 }
 #main h1 {
     font-size: 2em;
+    color: #303;
 }
 #main h3{
-  color: #464666;
+  color: #303;
 }
 #main h2, #main h4 {
   color: #6b6d76;
