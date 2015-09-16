@@ -25,6 +25,10 @@
     background-color: #330033;
 }
 
+button.navbar-toggle .fa {
+    color: inherit;
+}
+
 .top-nav-menu .navbar-collapse {
     padding-left: 0px;
     padding-right: 0px;
