@@ -111,6 +111,7 @@
 
 .tagline {
     color: #fc3;
+    text-transform: capitalize;
 }
 
 .btn-read, .btn-request {
