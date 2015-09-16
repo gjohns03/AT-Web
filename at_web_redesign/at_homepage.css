@@ -25,6 +25,11 @@
     background-color: #330033;
 }
 
+.top-nav-menu .navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 @media (min-width: 768px){
 #block-system-main-menu .nav {
   width: 750px;
