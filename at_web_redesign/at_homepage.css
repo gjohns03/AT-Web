@@ -34,9 +34,6 @@
 #block-system-main-menu .nav {
   width: 750px;
 }
-  #header .leaf{
-    display: block;  
-  }
 }
 
 @media (min-width: 992px){
@@ -52,11 +49,17 @@
 }
 
 #header .leaf{
-    display: inline-block;
     min-width: 15%;
     text-align: center;
     text-transform: uppercase;
 }
+
+@media (min-width: 768px){
+    #header .leaf{
+        display: inline-block;
+    }
+}
+
 
 #header .leaf a{
     color: #303;
