@@ -21,6 +21,10 @@
     margin: auto;
 }
 
+.top-nav-menu button.navbar-toggle {
+    background-color: #330033;
+}
+
 @media (min-width: 768px){
 #block-system-main-menu .nav {
   width: 750px;
