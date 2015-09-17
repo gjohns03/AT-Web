@@ -23,6 +23,8 @@
 
 .top-nav-menu button.navbar-toggle {
     background-color: #330033;
+    font-size: initial;
+    font-weight: initial;
 }
 
 button.navbar-toggle .fa {
@@ -61,6 +63,8 @@ button.navbar-toggle .fa {
 @media (min-width: 768px){
     #header .leaf{
         display: inline-block;
+        text-align: inherit;
+        padding: 0px 5px;
     }
 }
 
