@@ -55,16 +55,16 @@ button.navbar-toggle .fa {
 }
 
 #header .leaf{
-    min-width: 15%;
-    text-align: center;
     text-transform: uppercase;
+    padding: 0px 5px;
 }
 
 @media (min-width: 768px){
     #header .leaf{
         display: inline-block;
-        text-align: inherit;
-        padding: 0px 5px;
+        text-align: center;
+        min-width: 15%;
+        padding: 0px;
     }
 }
 
