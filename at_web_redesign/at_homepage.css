@@ -423,10 +423,10 @@ blockquote footer {
 }
 
 /* Classroom Database Table Icons */
-.class_data1 .glyphicon-remove {
-    display: none;
+.glyphicon-remove {
+    color: #a94442;
 }
 
-.class_data0 .glyphicon-ok {
-    display: none;
+.glyphicon-ok {
+    color: #3c763d;
 }
