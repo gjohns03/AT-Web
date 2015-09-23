@@ -421,3 +421,12 @@ blockquote footer {
     float: right;
     padding-left: 10px;    
 }
+
+/* Classroom Database Table Icons */
+.class_data1 .glyphicon-remove-sign {
+    display: none;
+}
+
+.class_data0 .glyphicon-ok-sign {
+    display: none;
+}
