@@ -419,7 +419,8 @@ blockquote footer {
 /* User Profile Styles */
 .user-profile img {
     float: right;
-    padding-left: 10px;    
+    padding-left: 10px;
+    border-radius: 50%;
 }
 
 /* Classroom Database Table Icons */
