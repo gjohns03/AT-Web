@@ -72,7 +72,7 @@ button.navbar-toggle .fa {
     color: #303;
 }
 
-#header .leaf a:hover {
+#header .leaf a:hover, #header .leaf a:active {
     background-color: #ffe699;
     border-bottom: 4px solid #ffcc33;
 }
