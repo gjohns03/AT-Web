@@ -58,9 +58,41 @@ This configuration will no longer be necessary after the universal CKEditor role
 4. In Filter settings section > WYSIWYG Filter > Rules for Class Names
     5. Add classes ```announcement,attention,btn,btn-basic,btn-info,btn-primary,fa*,glyphicon*,well,```
     
+###Create Login Redirect
+
+A method for users to log in and be redirected to the homepage.  This will bypass any administrative views for the user.  For users with many content types redirect them to the content filter page.
+
+1. Configuration > System > Actions
+2. Create the adcanced action "Redirect to URL"
+3. Input the Label: Redirect to Homepage
+4. Set the URL to the site homepage found in the Default frontpage in Configuration > System > Site information
+5. Go to Structure > Triggers
+6. Under the User tab assign "Redirect to Homepage" in TRIGGER: AFTER A USER HAS LOGGED IN
+
+To redirect users to a more advanced content filter than the default.
+
+1. Go to Structure > Views
+2. Enable the Content view
+3. Configuration > System > Actions
+2. Create the adcanced action "Redirect to URL"
+3. Input the Label: Redirect to Content Filter
+4. Set the URL: admin/content2
+5. Go to Structure > Triggers
+6. Under the User tab assign "Redirect to Content Filter" in TRIGGER: AFTER A USER HAS LOGGED IN
+
 ###Create Login Page
 
-A method for users to log in and be redirected to the homepage.  This will bypass any administrative views for the user.
+This login step is no longer being used.  If a login page was setup create a redirect to /admin, and use the login redirect to push users to a desired landing page after login.
+
+To Setup the Redirect to Admin
+
+1. In the modules page Enable the "Redirect" module
+2. Navigate to Configuration > Search and metadata > URL redirects > Add redirect
+3. Enter "login" in the From field
+4. Enter "admin" in the To field
+5. Select "Save"
+
+Old Instructions
 
 1. Content > Add content > Basic page
     2. Create a page called "Login to your site" with URL "login" and save the page.
