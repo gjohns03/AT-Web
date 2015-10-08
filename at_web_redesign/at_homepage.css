@@ -273,6 +273,9 @@ div[id^="expand-wrapper"]:hover img {
 }
 
 /* Blog entry Styling for the Main Content region */
+.blog-body {
+    margin-top: 10px;
+}
 
 /* Blog Entry - Header including Author and Tags */
 .author {
