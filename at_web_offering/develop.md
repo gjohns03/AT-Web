@@ -6,15 +6,26 @@ Input and update content
 ##AT Web Support
 
 1. Reguest demo site by submitting a ticket assigned to the Drupal Team with (Site Name, Department Code, Domain name request)
-2. Enable AT required modules/AT Feature
-3. inject AT CSS
-4. inject AT JS if applicable (not needed yet)
-5. configure CKEditor
-6. create login redirect to keep users out of administrative view
-7. Use AT Base Demo site or features for approved views
+2. Enter Site Name and Web Contact
+3. Enable AT required modules/AT Feature
+4. Inject AT CSS
+5. Configure CKEditor
+6. Create login redirect to keep users out of administrative view
+7. Add Users through Gateway
+8. Update Permissions
+9. Use AT Base Demo site or features for approved views
+
+###Enter Site Name and Web Contact
+1. Configuration > System > SF State Theme Settings
+2. Update "Site name" with the name of the department/unit.
+3. Update the "Web contact email" with the email address of the department/unit.
+4. If the site is a subsite of a larger department, enter the "Parent site name" and "Parent site URL" in the Parent site information tab.
+5. Remove the default "Banner Image" in the Banner image tab.
+6. Select "Save configuration"
 
 ###Enable AT Modules
-1. CSS Injector, 
+1. CSS Injector, Trigger, Redirect
+2. Disable: Webform Reply-To, Form builder Webform UI, Webform (Use Qualtrics for forms/surveys); Advanced help, Dashboard, Help (Reduce unused menu options); Menu breadcrumb (not permitted by Communications); Printer-friendly pages (depricated web feature);
 
 ###Import Default AT CSS
 
@@ -106,11 +117,22 @@ Add Users only after they have completed the basic Drupal training.  Site Manage
 
 1. Log in to SF State Gateway
 2. Select "IT Services"
-3. Edit the Site Group to add Site Manager to 
-4. Enter SF State email address of Site Manager in the "Members" section
-5. Select "Add Member(s)"
+3. "Edit" each of the Site Groups (admin, editor, fulladmin, publisher) to add  Jonathan C Foerster as a manager for each group. 
+    4. Enter SF State email address, foerster@sfsu.edu, in the text box of the Managers section.
+    5. Select "Add Manager"
+6. "Edit" the Site Group-editor to add the new site editor(s)
+    7. Enter SF State email address for the site editor(s)(include at_desk@sfsu.edu for testing purposes) in the text box in the Members section.
+    8. Select "Add Member(s) button
+    9. Select "Save"
 6. The reassignment may take up to 15 minutes to switch and require logging out of the site and relogging in.
 Other Users can be assigned a new role within the Drupal Site to change the user experience.
+
+###Update Permissions
+
+Modify the permissions for the editor to optimize the user experience and provide access to create content.
+
+1. People > Permissions
+2. Check the following permissions for the Editor role: Administer content; (For Basic page and additional content types used) Create new content, Edit own content, Edit any content, Delete own content, Delete any content;
 
 ###Building Blocks
 
