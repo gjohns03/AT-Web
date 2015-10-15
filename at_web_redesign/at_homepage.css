@@ -78,13 +78,13 @@ button.navbar-toggle .fa {
 }
 
 /* Page Header */
-/* Styles to control the distance between the Page Header and top navigation */
+/* Styles to control the distance between the Main content and top navigation */
 #main {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
-.page-header {
-  padding-top: 9px;
+#main section[role="main"] {
+  margin-top: 10px;
 }
 
 /* Text over Image Elements */
