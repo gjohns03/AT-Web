@@ -372,6 +372,24 @@ i.icon-3x {
 
 /* Blog Entry Sidebar Styles */
 
+/* Collapsible Quick Links Panels */
+.panel-group {
+    margin-top: 10px;
+}
+
+.panel-heading a {
+    width: 100%;
+    display: block;
+    background-image: url("https://playbook.cio.gov/designstandards/assets/img/minus.svg");
+    background-repeat: no-repeat;
+    background-size: 1.3rem;
+    background-position: right center;
+}
+
+.panel-heading a.collapsed {
+    background-image: url("https://playbook.cio.gov/designstandards/assets/img/plus.svg");
+}
+
 /* Testimonial and About Author Block Styles */
 .region-sidebar-second blockquote {
     margin-bottom: 0px;
