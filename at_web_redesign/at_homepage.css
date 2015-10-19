@@ -209,7 +209,7 @@ button.navbar-toggle .fa {
 
 @media(max-width: 991px){
     .blog-tile {
-        border-top: 10px solid #fff;
+        border-bottom: 10px solid #fff;
     }
 }
 
