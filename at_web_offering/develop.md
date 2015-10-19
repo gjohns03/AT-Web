@@ -10,12 +10,14 @@ Input and update content
 3. Enable AT required modules/AT Feature
 4. Inject AT CSS
 5. Configure CKEditor
-6. Create login redirect to keep users out of administrative view
-7. Add Users through Gateway
-8. Update Permissions
-9. Use AT Base Demo site or features for approved views
+6. Configure IMCE
+7. Create login redirect to keep users out of administrative view
+8. Add Users through Gateway
+9. Update Permissions
+10. Use AT Base Demo site or features for approved views
 
 ###Enter Site Name and Web Contact
+
 1. Configuration > System > SF State Theme Settings
 2. Update "Site name" with the name of the department/unit.
 3. Update the "Web contact email" with the email address of the department/unit.
@@ -24,6 +26,7 @@ Input and update content
 6. Select "Save configuration"
 
 ###Enable AT Modules
+
 1. CSS Injector, Trigger, Redirect
 2. Disable: Webform Reply-To, Form builder Webform UI, Webform (Use Qualtrics for forms/surveys); Advanced help, Dashboard, Help (Reduce unused menu options); Menu breadcrumb (not permitted by Communications); Printer-friendly pages (depricated web feature);
 
@@ -68,7 +71,13 @@ This configuration will no longer be necessary after the universal CKEditor role
     3. Replace elements with ```@[id|class|title|aria-hidden],a[class|href|name|target|title],p,div,h1,h2,h3,h4,h5,h6,img[src|alt|height],hr,br,ul,ol,li,span,table[class|sortable|summary],tr,th[abbr|scope|sorted|colspan|headers|rowspan],td[colspan|headers|rowspan],em,b,u,i,strong,blockquote,caption,thead,tbody,iframe[*],abbr[title]```
 4. In Filter settings section > WYSIWYG Filter > Rules for Class Names
     5. Add classes ```announcement,attention,btn,btn-basic,btn-info,btn-primary,fa*,glyphicon*,well,```
-    
+
+###Configure IMCE
+
+Configuration > Media > IMCE 
+Set User Role: editor to "Administrator" in the Public Files column
+Select "Save configuration"    
+
 ###Create Login Redirect
 
 A method for users to log in and be redirected to the homepage.  This will bypass any administrative views for the user.  For users with many content types redirect them to the content filter page.
