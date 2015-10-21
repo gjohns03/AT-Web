@@ -57,7 +57,7 @@ After the Universal CKEditor is rolled out by the Drupal Team the Editor Appeara
     11. Enter "Predefined styles path" to ```https://rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_ckeditor.styles.js```
         12. Default is: ```https://github.com/gjohns03/AT-Web/blob/master/at_web_offering/ckeditor.styles.js```
 13. Save
-5. Configuration > Text formats > configure All profile roles
+5. Configuration > Content authoring > Text formats > configure All profile roles
     6. Select "authenticated user"
     7. Select "Save configuration"
 
@@ -93,6 +93,7 @@ To redirect users to a more advanced content filter than the default.
 
 1. Go to Structure > Views
 2. Enable the Content view
+3. Make sure the Access is set to "Permission | Administer content (under Node section)"
 3. Configuration > System > Actions
 2. Create the adcanced action "Redirect to URL"
 3. Input the Label: Redirect to Content Filter
