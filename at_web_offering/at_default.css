@@ -32,6 +32,11 @@ hr {
 
 /* New AT CKEditor Styles */
 
+/* Header Region */
+#header .region-navigation {
+    background-color: #fff;
+}
+
 /* Link Buttons*/
 a.btn{
     margin: 0 5px;
