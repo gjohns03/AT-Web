@@ -38,6 +38,14 @@ Input and update content
     4. Description = Fixes broken styles for Styles.css and Bootstrap and Adds AT Styles
     5. CSS code if using new fonts = ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_new.css);```
     5. For all sites, add CSS line = ```@import url(//rawgit.com/gjohns03/AT-Web/master/at_web_offering/at_default.css);```
+    6. Include the CSS on Every page except the listed pages: ```admin
+admin*
+node/*/edit
+block/*/edit*
+block/add*
+node/add*
+user/*/edit
+node/*/delete```
     4. Save
 
 ###Configure CKEditor Editor profile
@@ -77,7 +85,7 @@ This configuration will no longer be necessary after the universal CKEditor role
 <<<<<<< HEAD
 Configuration > Media > IMCE
 =======
-Configuration > Media > IMCE 
+Configuration > Media > IMCE
 >>>>>>> 4203b3b1a040612f098cb320f91996ebe245aa89
 Set User Role: editor to "Administrator" in the Public Files column
 Select "Save configuration"    
@@ -134,7 +142,7 @@ Add Users only after they have completed the basic Drupal training.  Site Manage
 <<<<<<< HEAD
 3. "Edit" each of the Site Groups (admin, editor, fulladmin, publisher) to add  Jonathan C Foerster as a manager for each group.
 =======
-3. "Edit" each of the Site Groups (admin, editor, fulladmin, publisher) to add  Jonathan C Foerster as a manager for each group. 
+3. "Edit" each of the Site Groups (admin, editor, fulladmin, publisher) to add  Jonathan C Foerster as a manager for each group.
 >>>>>>> 4203b3b1a040612f098cb320f91996ebe245aa89
     4. Enter SF State email address, foerster@sfsu.edu, in the text box of the Managers section.
     5. Select "Add Manager"
