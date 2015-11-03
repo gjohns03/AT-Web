@@ -74,7 +74,11 @@ This configuration will no longer be necessary after the universal CKEditor role
 
 ###Configure IMCE
 
+<<<<<<< HEAD
 Configuration > Media > IMCE
+=======
+Configuration > Media > IMCE 
+>>>>>>> 4203b3b1a040612f098cb320f91996ebe245aa89
 Set User Role: editor to "Administrator" in the Public Files column
 Select "Save configuration"    
 
@@ -127,7 +131,11 @@ Add Users only after they have completed the basic Drupal training.  Site Manage
 
 1. Log in to SF State Gateway
 2. Select "IT Services"
+<<<<<<< HEAD
 3. "Edit" each of the Site Groups (admin, editor, fulladmin, publisher) to add  Jonathan C Foerster as a manager for each group.
+=======
+3. "Edit" each of the Site Groups (admin, editor, fulladmin, publisher) to add  Jonathan C Foerster as a manager for each group. 
+>>>>>>> 4203b3b1a040612f098cb320f91996ebe245aa89
     4. Enter SF State email address, foerster@sfsu.edu, in the text box of the Managers section.
     5. Select "Add Manager"
 6. "Edit" the Site Group-editor to add the new site editor(s)
