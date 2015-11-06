@@ -366,8 +366,12 @@ i.icon-3x {
 
 .service-request-body {
     text-align: left;
-    margin-left: 50px;
+    margin-left: 25px;
     margin-top: 25px;
+}
+
+.service-request-body ul {
+    list-style: none;
 }
 
 .service-request .pr, .service-request .yl {
