@@ -364,6 +364,12 @@ i.icon-3x {
     min-height: 300px;
 }
 
+.service-request-body {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
 .service-request .pr, .service-request .yl {
     border-radius: 20px;
     text-align: center;
