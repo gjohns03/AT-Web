@@ -509,3 +509,12 @@ blockquote footer {
 #edit-submit-taxonomy-term:hover {
   background-color: #e3e3e3;
 }
+
+/* Footer */
+.content-foot {
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #f9f9f9;
+    border-top: 5px solid #ffcc33;
+    border-radius: 5px;
+}
