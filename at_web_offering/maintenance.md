@@ -18,7 +18,7 @@ Touch base with all supported uints on a semi-annual basis.  See if there are an
 
 Add annotations for site launch, site updates that effect traffic goals, 
 
-1. Log into Google Analytics
+1. Log into Google Analytics (atdesksfstate@gmail.com)
 2. Select the "Reporting" tab
 3. Select the pull down arrow below the timeline
 4. Select "Create new annotation" and enter the date and note
