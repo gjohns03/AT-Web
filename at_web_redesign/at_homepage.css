@@ -497,8 +497,8 @@ blockquote footer {
     color: #3c763d;
 }
 
-/* Taxonomy Term page display button */
-#edit-submit-taxonomy-term {
+/* Taxonomy Term page display and Classroom Database buttons*/
+#edit-submit-taxonomy-term, #edit-submit-classroom-database {
   color: #303;
   font-weight: 600;
   text-transform: uppercase;
@@ -506,7 +506,7 @@ blockquote footer {
   border-color: #e3e3e3;
 }
 
-#edit-submit-taxonomy-term:hover {
+#edit-submit-taxonomy-term:hover, #edit-submit-classroom-database {
   background-color: #e3e3e3;
 }
 
