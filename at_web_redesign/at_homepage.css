@@ -46,7 +46,7 @@ button.navbar-toggle .fa {
         padding: 8px 0px;
         }
 
-    #header .leaf a:hover, #header .leaf a:active {
+    #header .leaf a:hover, #header .leaf a:active, #header .leaf a:focus {
         background-color: #ffcc33;
         border-color: #ffcc33;
     }
@@ -78,7 +78,7 @@ button.navbar-toggle .fa {
         background-color: #ffe699;
     }
 
-    #header .leaf a:hover, #header .leaf a:active {
+    #header .leaf a:hover, #header .leaf a:active, #header .leaf a:focus {
         border-bottom: 4px solid #ffcc33;
     }
 }
@@ -181,7 +181,7 @@ button.navbar-toggle .fa {
     font-weight: bold;
 }
 
-#main .btn-read a:hover {
+#main .btn-read a:hover, #main .btn-read a:active, #main .btn-read a:focus {
     border: 1px solid #ffe699;
 }
 
@@ -195,7 +195,7 @@ button.navbar-toggle .fa {
     font-weight: bold;
 }
 
-#main .btn-request a:hover {
+#main .btn-request a:hover, #main .btn-request a:active, #main .btn-request a:focus {
     background-color: #ffcc33;
     border-color: #ffcc33;
 }
@@ -338,7 +338,7 @@ div[id^="expand-wrapper"]:hover img {
     font-weight: bold;
 }
 
-#main .blog-btn-request a:hover {
+#main .blog-btn-request a:hover, #main .blog-btn-request a:active, #main .blog-btn-request a:focus {
     background-color: #ffcc33;
     border-color: #ffcc33;
 }
