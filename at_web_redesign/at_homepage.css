@@ -273,7 +273,7 @@ button.navbar-toggle .fa {
     vertical-align: middle;
 }
 
-div[id^="expand-wrapper"]:hover img {
+div[id^="expand-wrapper"]:hover img, div[id^="expand-wrapper"]:active img, div[id^="expand-wrapper"]:focus img {
     -webkit-transform:scale(1.1); /* Safari and Chrome */
     -moz-transform:scale(1.1); /* Firefox */
     -ms-transform:scale(1.1); /* IE 9 */
