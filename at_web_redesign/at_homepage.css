@@ -426,6 +426,19 @@ i.icon-3x {
     margin-top: 10px;
 }
 
+.btn-collapse {
+    width: 100%;
+    border-color: #e3e3e3;
+    color: #303;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+}
+
+.btn-collapse:hover, .btn-collapse:active,.btn-collapse:focus {
+  background-color: #e3e3e3;
+}
+
 .panel-heading a {
     width: 100%;
     display: block;
