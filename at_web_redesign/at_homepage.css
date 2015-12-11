@@ -437,8 +437,10 @@ i.icon-3x {
 
 .btn-collapse:hover, .btn-collapse:active,.btn-collapse:focus {
   background-color: #e3e3e3;
+  color: #303;
 }
 
+/* accordion background icons
 .panel-heading a {
     width: 100%;
     display: block;
@@ -450,7 +452,7 @@ i.icon-3x {
 
 .panel-heading a.accordion-toggle[aria-expanded=true] {
     background-image: url("https://playbook.cio.gov/designstandards/assets/img/minus.svg");
-}
+}*/
 
 /* Testimonial and About Author Block Styles */
 .region-sidebar-second blockquote {
