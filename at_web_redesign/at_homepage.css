@@ -115,7 +115,17 @@ button.navbar-toggle .fa {
 /* White Text to be over transparent gray background */
 
 /* White Text for page banner and blog tiles*/
-.text-over p, #main .text-over h2, #main .text-over .btn-read a, #main .text-over-tile a, #main .region-sidebar-second .text-over-tile a, #main .region-sidebar-second .text-over-tile a:hover {
+div[id^="expand-wrapper"] span {
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 1px dotted #fff;
+}
+
+div[id^="expand-wrapper"]:hover span, div[id^="expand-wrapper"]:active span, div[id^="expand-wrapper"]:focus span {
+    color: #ffe699;
+}
+
+.text-over p, span.text-over, #main .text-over h2, #main .text-over .btn-read a, #main .text-over-tile a, #main .region-sidebar-second .text-over-tile a, #main .region-sidebar-second .text-over-tile a:hover {
     color: #fff;
     margin-bottom: 20px;
     font-weight: bold;
