@@ -429,14 +429,14 @@ i.icon-3x {
 .panel-heading a {
     width: 100%;
     display: block;
-    background-image: url("https://playbook.cio.gov/designstandards/assets/img/minus.svg");
+    background-image: url("https://playbook.cio.gov/designstandards/assets/img/plus.svg");
     background-repeat: no-repeat;
     background-size: 1rem;
     background-position: right center;
 }
 
-.panel-heading a.collapsed {
-    background-image: url("https://playbook.cio.gov/designstandards/assets/img/plus.svg");
+.panel-heading a.accordion-toggle[aria-expanded=true] {
+    background-image: url("https://playbook.cio.gov/designstandards/assets/img/minus.svg");
 }
 
 /* Testimonial and About Author Block Styles */
