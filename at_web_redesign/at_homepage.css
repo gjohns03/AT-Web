@@ -118,10 +118,9 @@ button.navbar-toggle .fa {
 div[id^="expand-wrapper"] span {
     color: #fff;
     font-weight: bold;
-    border-bottom: 1px dotted #fff;
 }
 
-div[id^="expand-wrapper"]:hover span, div[id^="expand-wrapper"]:active span, div[id^="expand-wrapper"]:focus span {
+div[id^="expand-wrapper"]:hover span, div[id^="expand-wrapper"]:active span, div[id^="expand-wrapper"]:focus span, div[id^="expand-wrapper"] a:hover span, div[id^="expand-wrapper"] a:active span, div[id^="expand-wrapper"] a:focus span {
     color: #ffe699;
 }
 
