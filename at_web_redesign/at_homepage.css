@@ -422,8 +422,8 @@ i.icon-3x {
 /* Blog Entry Sidebar Styles */
 
 /* Collapsible Quick Links Panels */
-.panel-group {
-    margin-top: 10px;
+.quick-links {
+    margin-top: 15px;
 }
 
 .btn-collapse {
