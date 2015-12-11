@@ -433,6 +433,7 @@ i.icon-3x {
     font-weight: 600;
     text-transform: uppercase;
     background-color: #f5f5f5;
+    text-align: left;
 }
 
 .btn-collapse:hover, .btn-collapse:active,.btn-collapse:focus {
