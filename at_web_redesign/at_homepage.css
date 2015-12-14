@@ -372,52 +372,6 @@ i.icon-3x {
 .service-request .well-accent {
     min-height: 160px;
 }
-/* Old requst page
-.service-request {
-    min-height: 300px;
-}
-
-.service-request-body {
-    text-align: left;
-    margin-left: 25px;
-    margin-top: 25px;
-}
-
-.service-request-body ul {
-    list-style: none;
-}
-
-.service-request .pr, .service-request .yl {
-    border-radius: 20px;
-    text-align: center;
-    color: #fff;
-    padding: 20px;
-    font-size: 1.5em;
-}
-
-.service-request i {
-    color: #fff;
-    font-size: 6em;
-    padding-left: 20px;
-}
-
-#main .service-request .pr h2{
-    color: #fc3;
-}
-
-#main .service-request .yl h2{
-    color: #303;
-}
-
-.pr {
-    background-color: #303;
-}
-
-.yl {
-    background-color: #fc3;
-}
-*/
-
 
 /* Blog Entry Sidebar Styles */
 
@@ -440,20 +394,6 @@ i.icon-3x {
   background-color: #e3e3e3;
   color: #303;
 }
-
-/* accordion background icons
-.panel-heading a {
-    width: 100%;
-    display: block;
-    background-image: url("https://playbook.cio.gov/designstandards/assets/img/plus.svg");
-    background-repeat: no-repeat;
-    background-size: 1rem;
-    background-position: right center;
-}
-
-.panel-heading a.accordion-toggle[aria-expanded=true] {
-    background-image: url("https://playbook.cio.gov/designstandards/assets/img/minus.svg");
-}*/
 
 /* Testimonial and About Author Block Styles */
 .region-sidebar-second blockquote {
